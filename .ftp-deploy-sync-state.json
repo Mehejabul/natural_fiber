@@ -1,0 +1,2485 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1705917543648,
+    "data": [
+        {
+            "type": "file",
+            "name": ".editorconfig",
+            "size": 258,
+            "hash": "d9a5756ca5adea55000be0ee4f5af68946e3554c986981b7f8e35e7acaad28fa"
+        },
+        {
+            "type": "file",
+            "name": ".htaccess",
+            "size": 284,
+            "hash": "7da532906bd2e838854f2d2b1f070933b6e40aaf9d1a2196ab52a09378162fcd"
+        },
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 85,
+            "hash": "1a2497e55de58106f7dd4316fb0dcab4a680507e4b18b8020ea5de5c308187e2"
+        },
+        {
+            "type": "folder",
+            "name": "app"
+        },
+        {
+            "type": "file",
+            "name": "artisan",
+            "size": 1686,
+            "hash": "f5645be808d32398cd215ef933c793d806ae56796190579dde4ca8888c584c1b"
+        },
+        {
+            "type": "folder",
+            "name": "bootstrap"
+        },
+        {
+            "type": "file",
+            "name": "composer.json",
+            "size": 1997,
+            "hash": "6727f6c8752881f83c226df50d19ea00b7d9f95dc82be57dae2a0223e84813c9"
+        },
+        {
+            "type": "file",
+            "name": "composer.lock",
+            "size": 307592,
+            "hash": "833deb51934b3f7d32fd948e87e82a5424b3c0ce9643d5e58b4b260f90244fac"
+        },
+        {
+            "type": "folder",
+            "name": "config"
+        },
+        {
+            "type": "folder",
+            "name": "database"
+        },
+        {
+            "type": "file",
+            "name": "index.php",
+            "size": 563,
+            "hash": "aa747cd76a2fd775289a51528d4356f816d3bf594494da626816b5cb80eaf365"
+        },
+        {
+            "type": "file",
+            "name": "package-lock.json",
+            "size": 71380,
+            "hash": "ab98df3f470fec3378bff63afa136484810ba0680d75627ff92475a36432272b"
+        },
+        {
+            "type": "file",
+            "name": "package.json",
+            "size": 415,
+            "hash": "c302d10163b7d0c51a8518a22162ba98a1f20a8183500976c3b366252de95d49"
+        },
+        {
+            "type": "file",
+            "name": "postcss.config.js",
+            "size": 93,
+            "hash": "c713dcb623f3a959b28f6e7f724440660f890288c7b796d8c9ce42372ee7f36b"
+        },
+        {
+            "type": "file",
+            "name": "phpunit.xml",
+            "size": 1084,
+            "hash": "28b147ce549e633cddf03c373a73c857bc0202f50329444b0e2b278a45ff5500"
+        },
+        {
+            "type": "folder",
+            "name": "public"
+        },
+        {
+            "type": "folder",
+            "name": "storage"
+        },
+        {
+            "type": "folder",
+            "name": "routes"
+        },
+        {
+            "type": "folder",
+            "name": "resources"
+        },
+        {
+            "type": "file",
+            "name": "tailwind.config.js",
+            "size": 541,
+            "hash": "c57c50e5816a545cbc8b412239f01fb7df1a212abec635eb000c06b6e66688fa"
+        },
+        {
+            "type": "folder",
+            "name": "tests"
+        },
+        {
+            "type": "file",
+            "name": "vite.config.js",
+            "size": 310,
+            "hash": "330743eb5df510ca4aab279fa7241a6fe82267b38c5bf444dc311f7a22fa9c61"
+        },
+        {
+            "type": "folder",
+            "name": "app/Console"
+        },
+        {
+            "type": "folder",
+            "name": "app/Exceptions"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http"
+        },
+        {
+            "type": "folder",
+            "name": "app/Models"
+        },
+        {
+            "type": "folder",
+            "name": "app/Providers"
+        },
+        {
+            "type": "folder",
+            "name": "app/View"
+        },
+        {
+            "type": "file",
+            "name": "bootstrap/app.php",
+            "size": 1620,
+            "hash": "e346d041676171a900406bba87f0658b6d3aebef79bed7e7081213e7ac3c7951"
+        },
+        {
+            "type": "folder",
+            "name": "bootstrap/cache"
+        },
+        {
+            "type": "file",
+            "name": "config/app.php",
+            "size": 6514,
+            "hash": "9b77453ab8a1483eb82961069050677e8a74e2da0df4c293035acf43000de68b"
+        },
+        {
+            "type": "file",
+            "name": "config/auth.php",
+            "size": 3897,
+            "hash": "a12205af895da53dd472f0a55a2e4a51adc979c616cf9d9c09cb7ae9b8bdabf9"
+        },
+        {
+            "type": "file",
+            "name": "config/broadcasting.php",
+            "size": 2147,
+            "hash": "d27413cc5203b58d5458541e9cf0573036a358584ebe4a06424ad05eef4f81ce"
+        },
+        {
+            "type": "file",
+            "name": "config/cache.php",
+            "size": 3337,
+            "hash": "51714aa452a89464d270b1f7afe570876423a792d83c304e682a8b78cd134df6"
+        },
+        {
+            "type": "file",
+            "name": "config/cart.php",
+            "size": 1631,
+            "hash": "16d4ce667a435aabc38111715d1f0297ab53bc2b29d20c87b8b6b75fa688d33c"
+        },
+        {
+            "type": "file",
+            "name": "config/cors.php",
+            "size": 846,
+            "hash": "7a1b9af42b73b20126219eca484ea7eb02c25a5d179eab1ac00251779d808c49"
+        },
+        {
+            "type": "file",
+            "name": "config/database.php",
+            "size": 5289,
+            "hash": "fb2684d2c3fc7e4359342a49629c08c2293ff2b6a6e55faa8368e81af13374d5"
+        },
+        {
+            "type": "file",
+            "name": "config/filesystems.php",
+            "size": 2370,
+            "hash": "16c11e34d3544712e925282c70b6c3864dc4e6ca1dda9edeaaf4154a47c0f1bb"
+        },
+        {
+            "type": "file",
+            "name": "config/hashing.php",
+            "size": 1624,
+            "hash": "7040c9c4ca2e642bacf50a19e411d14cf438998e6c791e1f0d0176245f7688d6"
+        },
+        {
+            "type": "file",
+            "name": "config/logging.php",
+            "size": 4173,
+            "hash": "78d93d69386ab0dc2069713fd0c3c9f012d682e7f103ce0b4b59109ce077c618"
+        },
+        {
+            "type": "file",
+            "name": "config/mail.php",
+            "size": 3856,
+            "hash": "f1d0eaeebae585d130a6adf998f54c564a303ccfe3ffd56fcc0179222a67a7ca"
+        },
+        {
+            "type": "file",
+            "name": "config/queue.php",
+            "size": 3447,
+            "hash": "8c6f5b82008318a67fbeee5a4bf6113b462d8fbe5d09babd79f71234f3f7089f"
+        },
+        {
+            "type": "file",
+            "name": "config/sanctum.php",
+            "size": 2963,
+            "hash": "b4c1c5ca7d2bf7d40bade82b7fc18cdff3f13d6cf5319fd521ddd2ddea2d19de"
+        },
+        {
+            "type": "file",
+            "name": "config/services.php",
+            "size": 979,
+            "hash": "76f41873f7a25f3f91bcf5e8b5fecc4655b046fdefb4ab67d6f7e7ff56e73141"
+        },
+        {
+            "type": "file",
+            "name": "config/session.php",
+            "size": 7023,
+            "hash": "fbd81b73a8af2094f9731f83ce445a124d977d1cde0963529881fab6ae3ad7a2"
+        },
+        {
+            "type": "file",
+            "name": "config/view.php",
+            "size": 1053,
+            "hash": "31296429fea0b7bc8392bdf63c5a664524c84634cdcd8d54c51d73d762c4b2ef"
+        },
+        {
+            "type": "folder",
+            "name": "database/factories"
+        },
+        {
+            "type": "folder",
+            "name": "database/migrations"
+        },
+        {
+            "type": "folder",
+            "name": "database/seeders"
+        },
+        {
+            "type": "file",
+            "name": "public/.htaccess",
+            "size": 603,
+            "hash": "42493ebc7bad9b95a90363cae9d46ca9934f2d5b4177088d7a08371d5a2623c7"
+        },
+        {
+            "type": "folder",
+            "name": "public/client"
+        },
+        {
+            "type": "file",
+            "name": "public/index.php",
+            "size": 1710,
+            "hash": "c96ed6bbe80f9105534af4d1510dc79f0143e6843970dba7ddd4ec7d03097cab"
+        },
+        {
+            "type": "file",
+            "name": "public/favicon.ico",
+            "size": 0,
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+            "type": "file",
+            "name": "public/robots.txt",
+            "size": 24,
+            "hash": "e5c4b84484ee4216e9373be99380320c25dd94805f99f0a805846f087636553f"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework"
+        },
+        {
+            "type": "folder",
+            "name": "storage/app"
+        },
+        {
+            "type": "folder",
+            "name": "storage/logs"
+        },
+        {
+            "type": "file",
+            "name": "routes/api.php",
+            "size": 570,
+            "hash": "b9633c027cca4f770a81885d70feda57d46f98a60d36401cf5d5eb4c850aefbe"
+        },
+        {
+            "type": "file",
+            "name": "routes/auth.php",
+            "size": 2464,
+            "hash": "4860e9d688166ba829f7f61405f0da576e7c10b35c981f4202bd84476662e26e"
+        },
+        {
+            "type": "file",
+            "name": "routes/console.php",
+            "size": 592,
+            "hash": "69ec50e361f429e7ffaf95011f9e3cab75481ad753405755580e8e89b1518b20"
+        },
+        {
+            "type": "file",
+            "name": "routes/web.php",
+            "size": 7957,
+            "hash": "fe7a72980e6141433943c8173e5cd76d6cdd12ceb14d3f400947315b45614148"
+        },
+        {
+            "type": "file",
+            "name": "routes/channels.php",
+            "size": 558,
+            "hash": "5c776998675a7c7d3303b3cd0517e314755cd9d582c17b18238c3686b17d76ac"
+        },
+        {
+            "type": "folder",
+            "name": "resources/fonts"
+        },
+        {
+            "type": "folder",
+            "name": "resources/css"
+        },
+        {
+            "type": "folder",
+            "name": "resources/js"
+        },
+        {
+            "type": "folder",
+            "name": "resources/scss"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views"
+        },
+        {
+            "type": "file",
+            "name": "tests/CreatesApplication.php",
+            "size": 375,
+            "hash": "ff49d2d2197546e6730769fd4f11e1acf7169b83cdeac102af5d77c07f748898"
+        },
+        {
+            "type": "file",
+            "name": "tests/TestCase.php",
+            "size": 163,
+            "hash": "fde47044bae82a492f646384cbc1e636b93c6bf0cea7047c3631e6a26736154d"
+        },
+        {
+            "type": "folder",
+            "name": "tests/Unit"
+        },
+        {
+            "type": "folder",
+            "name": "tests/Feature"
+        },
+        {
+            "type": "file",
+            "name": "app/Console/Kernel.php",
+            "size": 573,
+            "hash": "9e0488a4a187421215b8d896ec681c64da6b90527b27013a20a4dcee08fa17e1"
+        },
+        {
+            "type": "file",
+            "name": "app/Exceptions/Handler.php",
+            "size": 639,
+            "hash": "e61ed0430e8da3ead07e49e068ab42457e5c4e5e5f2973382137e5d2dd4cb377"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Controllers"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Kernel.php",
+            "size": 2830,
+            "hash": "1e32c5554387ec7ffad345f009a6c263245c86bba7e8f92e910d705d0f3af0c1"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Middleware"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Requests"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Ad.php",
+            "size": 173,
+            "hash": "04593d01de1c4bb358195266fe649326240c96d8dc87a0790ef49fafb38e0a94"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Attribute.php",
+            "size": 180,
+            "hash": "9eea8ac08660b2a34817e30c766e13b90c85d64a90ad9fe11a5da2a744414ddf"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Banner.php",
+            "size": 177,
+            "hash": "1d30e469ad08b802d7cd0ece731024cba50b462aa28e3c7cd88c573261ca51c9"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Brand.php",
+            "size": 176,
+            "hash": "0c53a3e355e1075bc3b966b71a7e4bda2bc92ec4292ec7e59c504b8cbf24a580"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Catalogue.php",
+            "size": 353,
+            "hash": "8e0d50cfba491718881f53b2cece0836bd173d0251445a034813608d906374f5"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Category.php",
+            "size": 609,
+            "hash": "42e2d2030a3d86d62f048cca732064963b1dc6e7d37000ed6ce22ec2b9c61047"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/CompanyDetails.php",
+            "size": 185,
+            "hash": "0905ca808c50cdaa8277a590d99b307ea4153fb902270ded2b96cf6e09c6775a"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Customer.php",
+            "size": 276,
+            "hash": "e52e9990b983386e592f109c1bcf7f1c14ff3059a119b5c21bf23a1ddaeab824"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/MultiImages.php",
+            "size": 374,
+            "hash": "cf9532f4214be586f20afbacff369a3c907fde7b4b9f48df28d36a627d6f6052"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Order.php",
+            "size": 684,
+            "hash": "5e15b5a0f1a58775c9afe996dd76574ff8c5779a1a2b96bd77a2331f8128432a"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/OrderItem.php",
+            "size": 571,
+            "hash": "5e7e7b969b272b3a8b3f773f8590592b853913a13d003a41a46e48509b41ad73"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Product.php",
+            "size": 1063,
+            "hash": "5508ec6d1177f8cfe0609481e045977aa476e8d910402885624a95cf5c05df3d"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/ProductType.php",
+            "size": 182,
+            "hash": "9bcd619617f3927e79094fe6526beb3d2149cfaef386756a9b2e428bfdd9be73"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/ProductVariation.php",
+            "size": 187,
+            "hash": "511ef639d3e3be3adfd73c91ccdea76ae3db5354ed7f9eebedb0488f43535137"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/ProductVariationDetails.php",
+            "size": 511,
+            "hash": "3ee51f018c6f1aea9f61a82eab9855e312cae28f59f9f4c12b646efba0dd4cfb"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Shipping.php",
+            "size": 299,
+            "hash": "9368c89044c8111574abe864ab1f8f1f24f8dfb0805ce155007f57bf8ef23cf6"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Stock.php",
+            "size": 330,
+            "hash": "c5f8da7f76a7a44b71985e909e44da99aed7175875835ac8ea437ba501a6ddd7"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Transaction.php",
+            "size": 302,
+            "hash": "30d4f353e8f1e342e35332eecf61e3b19387782cb9fd283860700d1658efb088"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Unit.php",
+            "size": 175,
+            "hash": "3417b262da3fc2273aaf5245616c82763e60258929b31c84cd0e89a078cf6c6d"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/User.php",
+            "size": 948,
+            "hash": "92f0ad8684ee947b66350c8b228ab40312e65ac744b6b9af4c45a63cc7fa660d"
+        },
+        {
+            "type": "file",
+            "name": "app/Providers/AppServiceProvider.php",
+            "size": 1014,
+            "hash": "765bb73cca3291e31387453455a655ff6cb7665d615f9a2f1dac786b887a6c1a"
+        },
+        {
+            "type": "file",
+            "name": "app/Providers/AuthServiceProvider.php",
+            "size": 518,
+            "hash": "5d44e4fac82838d15cbd319fdc152fc29f93945c09c2dbecf92132a18c6ab314"
+        },
+        {
+            "type": "file",
+            "name": "app/Providers/BroadcastServiceProvider.php",
+            "size": 359,
+            "hash": "1839af2f801cb9fff772430aa25aa7529b1e7937b2441555c70af4fae1541a99"
+        },
+        {
+            "type": "file",
+            "name": "app/Providers/EventServiceProvider.php",
+            "size": 884,
+            "hash": "c0f2d7d14531d8d92edbe4f1c5ed50973213cb4a119d79f8d2c1dfaf849bba78"
+        },
+        {
+            "type": "file",
+            "name": "app/Providers/RouteServiceProvider.php",
+            "size": 1106,
+            "hash": "57775afc60bc2e926b4c08476a0b611dfac194fac15636c7cbe91927702b1bfa"
+        },
+        {
+            "type": "folder",
+            "name": "app/View/Components"
+        },
+        {
+            "type": "file",
+            "name": "database/factories/UserFactory.php",
+            "size": 1004,
+            "hash": "453b9c63ab432518037066567c77d38d65bc0ba029d958dbab3d0554beb1e2f7"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2014_10_12_000000_create_users_table.php",
+            "size": 1177,
+            "hash": "50f058f0a2371196875b0dd16b9a25da886ee497074a2bb225a59bc624408698"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php",
+            "size": 641,
+            "hash": "dca550bb71abdc837debddc9baa9e14f85dd121cd78dc811cdae07a54656252a"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2019_08_19_000000_create_failed_jobs_table.php",
+            "size": 768,
+            "hash": "1b2dc826a38de3e6cdd351fc5e0b96689440086e8027454453347036f1860ef3"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php",
+            "size": 856,
+            "hash": "5a9c64d94d29ec6c435625b8a4d0d3c898b9bad042b5a3ac64f11d39c2b3610f"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_11_27_030116_create_brands_table.php",
+            "size": 797,
+            "hash": "05d90edda496450a74a2aae2abb1e85fcf5b1027422ddf5ff9856aaff6529d02"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_11_27_030454_create_catalogues_table.php",
+            "size": 650,
+            "hash": "053e9483cd271dacc684de9208f9b4a78605dc980bdab11349010990f3b6a068"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_11_27_031320_create_categories_table.php",
+            "size": 899,
+            "hash": "7f829cd1b628db4c90bfe42cf0f40cab3a8d91d64e32d4a7995955a727776f1b"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_11_27_080300_create_attributes_table.php",
+            "size": 574,
+            "hash": "23bfdf9bc5ad0440bc21fd720ea0c4d81e2d8f5bd9ec96526d672a4a78cd39a1"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_11_27_081510_create_product_variations_table.php",
+            "size": 640,
+            "hash": "8c3f72304addca78b26981c6d8262b9f87b68d1f4046e7a78adf58cd7e54d7b7"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_11_27_082505_create_products_table.php",
+            "size": 1867,
+            "hash": "2fe4dcca8f6a0b881191d89156e216e45b9939af421c804a18fc98fe92e3f44c"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_11_27_101532_create_stocks_table.php",
+            "size": 672,
+            "hash": "da0c96e45beca9a260504b5ae9cb2305cf21f9c830e2fc53509ea3d95f576989"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_11_27_104727_create_units_table.php",
+            "size": 619,
+            "hash": "4e0fea0afbb0be7372c7543e44cb78c7fa2f58a628dab78fe823bd5d091db75a"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_11_28_054136_create_customers_table.php",
+            "size": 872,
+            "hash": "b80cf94ee5e1c3cf67af9be0fd3535b0922a5dc05666119276cadbd4416a13a7"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_12_07_182412_create_orders_table.php",
+            "size": 891,
+            "hash": "462e6009b1c80759c15c67babd0e4dff5b1ef9d8180599645ea52f8988f5be72"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_12_07_182500_create_order_items_table.php",
+            "size": 747,
+            "hash": "2980e1c2bcf49dced87638c1ad5f4109ea938f702da225830124012261b922cc"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_12_07_182530_create_shippings_table.php",
+            "size": 802,
+            "hash": "cd33aa27379e104bf1ac727cb3cba7272d5bc066a1fd070e23d50fb54d28c159"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_12_07_182548_create_transactions_table.php",
+            "size": 811,
+            "hash": "ee3a062b70732e06ce608d7da492ce907607292673bcd8f2c29c462223eabb22"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_12_07_183612_create_product_variation_details_table.php",
+            "size": 821,
+            "hash": "fdd13d68149c5b1532427eeadf6d53d58486339358fe1cc8513ab1c1ecff868a"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_12_20_103956_create_banners_table.php",
+            "size": 760,
+            "hash": "999b2f719e682a94b409dc3fa3dbe409ff71ac458166c5e99980dc42589e6f87"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_12_20_202204_create_ads_table.php",
+            "size": 752,
+            "hash": "403478e88e19da6de40922029ee791d2420f2b934beedf5919c94829a121c248"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2023_12_24_055533_create_company_details_table.php",
+            "size": 1010,
+            "hash": "31b7f8d65c0cb1a2f645422f7eb960135bf09e5cfe1de7aa12e4ed765781a679"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/AttributeSeeder.php",
+            "size": 438,
+            "hash": "1c4f01a01c7ad6d179eda4ba3772cdda5dd7ffaf851f2849eebb4240555a0adf"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/BrandSeeder.php",
+            "size": 450,
+            "hash": "86528da84a517b0352d0ba2d5a9b2c59b7654271e22f21afa918600eeb106e50"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/CatalogueSeeder.php",
+            "size": 588,
+            "hash": "8d5d1b5ec5504001bfbe721b6fbb11e19b31714eca4b848f0ff2250ddb59c1c0"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/CategoriesSeeder.php",
+            "size": 271,
+            "hash": "6c47bd427174f9f81a683c356b3e8a06758fb1fdc37ce93adb5d4291bb57a63f"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/DatabaseSeeder.php",
+            "size": 799,
+            "hash": "601995c88558fdaa333794c20cfd214f64e346d812395720c130412649236ac3"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/ProductSeeder.php",
+            "size": 268,
+            "hash": "3c7736e85f81e77822f6e5ae79a4d59525dbfc12a828902f1ddb072aa3192ec4"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/ProductVariationSeeder.php",
+            "size": 882,
+            "hash": "f3a6345ff086aeaac1b79e6485caa5570ee78d7eb63a1f4b4b511861954320d9"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/SuperAdminSeeder.php",
+            "size": 817,
+            "hash": "431fb022456430bae1a106f40365219d621bcb8a1d8a582c5d6ee40ff6c06f0b"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/UnitSeeder.php",
+            "size": 412,
+            "hash": "0e33fc469e214f8a9daf661a527b90943488a9d19b50f4ed3dc4f7c700134d74"
+        },
+        {
+            "type": "folder",
+            "name": "public/client/assets"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework/cache"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework/sessions"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework/testing"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework/views"
+        },
+        {
+            "type": "folder",
+            "name": "storage/app/public"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/FontAwesome.otf",
+            "size": 134808,
+            "hash": "444dd4366615ffc4a16d012b2fa90137065d3ccb410fa6fd5e4ddd7b5e4ffcd5"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/Material-Design-Iconic-Font.eot",
+            "size": 42495,
+            "hash": "fb37e1e79a43463400e850747a5c32e0b116a7b2bba3335a600e12fd4bd9d47a"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/Material-Design-Iconic-Font.svg",
+            "size": 238287,
+            "hash": "e3ae6e3ec6fc5e38f73ef6a7b31d3f8b61a0994ebce133953ca7aa21df57f1f5"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/Material-Design-Iconic-Font.ttf",
+            "size": 99212,
+            "hash": "18a45be2ecb66ce217c3bbccf219f8bdc05dc76d61a6e63673186efd1c7cda1a"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/Material-Design-Iconic-Font.woff",
+            "size": 50312,
+            "hash": "7c74c136895350e927bf69fe9fcb9f33fe9fae6340709d6ec4f8cb838a9470a3"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/Material-Design-Iconic-Font.woff2",
+            "size": 38384,
+            "hash": "e8eea96e29a7c0a72612ab85ca3229979666467a28349642c2176e7189a1a39c"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/fontawesome-webfont.eot",
+            "size": 165742,
+            "hash": "7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/fontawesome-webfont.svg",
+            "size": 444379,
+            "hash": "ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/fontawesome-webfont.ttf",
+            "size": 165548,
+            "hash": "aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/fontawesome-webfont.woff",
+            "size": 98024,
+            "hash": "ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/fontawesome-webfont.woff2",
+            "size": 77160,
+            "hash": "2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/ionicons.eot",
+            "size": 120724,
+            "hash": "a4803d7bdeb478a5b9238fe74d8aaa98dafe2e8e68fccbd0e3f4dced823f27f0"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/ionicons.svg",
+            "size": 333834,
+            "hash": "a627d9068c1235d9b3c95c405eb6ecb64a290b159cf5e926c0d96d89b24cd5fc"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/ionicons.ttf",
+            "size": 188508,
+            "hash": "2ba7f20b1d8990e17a47fe3d88e4c766628aaa2baf1dd30fca0a0db59836f5f9"
+        },
+        {
+            "type": "file",
+            "name": "resources/fonts/ionicons.woff",
+            "size": 67904,
+            "hash": "709f2789daaff440820ebb975d3ae409af45121bdec47e39e83523490b1bc0fc"
+        },
+        {
+            "type": "file",
+            "name": "resources/css/app.css",
+            "size": 59,
+            "hash": "cc1a7ad0d019ddb1d32d0ecb588ba0ac26ce41d8625dd6c366348b25f83a28ec"
+        },
+        {
+            "type": "file",
+            "name": "resources/css/plugins.css",
+            "size": 483600,
+            "hash": "04f2ff0c32c0175e59ed35163379692b42b77095f249facdecfc4f3b49c90afa"
+        },
+        {
+            "type": "file",
+            "name": "resources/css/style.css",
+            "size": 222823,
+            "hash": "7e00c68cbc8dc1c31d530a3baa70b66b5ebd06af2afd71f812a0e11ce96b7def"
+        },
+        {
+            "type": "file",
+            "name": "resources/css/style.min.css",
+            "size": 215127,
+            "hash": "9907b66c7b4697ce153575774986bf8eeb4c145f59543fb077e6097573524ed9"
+        },
+        {
+            "type": "file",
+            "name": "resources/js/app.js",
+            "size": 96,
+            "hash": "ef2d6f5db880db7aa4407c2d3930e6ca3c298ae19182aeceae5b4b889ff284f4"
+        },
+        {
+            "type": "file",
+            "name": "resources/js/bootstrap.js",
+            "size": 1248,
+            "hash": "326ba857c524b23ca3b95a34cf26e9ad2e9c9a9e7605b3bb163d96b2e2b7b2aa"
+        },
+        {
+            "type": "file",
+            "name": "resources/js/main.js",
+            "size": 23098,
+            "hash": "4d7cb3cc791500cc4d5917d68f6736a19876e5844f59ef29e3cad768024f9302"
+        },
+        {
+            "type": "file",
+            "name": "resources/js/plugins.js",
+            "size": 683842,
+            "hash": "2d4aba7264fe7402923bfba9be50263248bffd7ded0ed8a502097b98d1474334"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/_common.scss",
+            "size": 6949,
+            "hash": "f1e7412501c28a8f9593e924a411edaeb184c20784248cac66b41b4456a6c263"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/_mixin.scss",
+            "size": 492,
+            "hash": "013da6db25961a4eb2f9be779526d9eba14421f9ace85cb790345a26634e4968"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/_variabls.scss",
+            "size": 1725,
+            "hash": "2e2b75150ae023c3bcbf3bfdba827e3113e5abd0b3cea04e4ce58f28546d3dfd"
+        },
+        {
+            "type": "folder",
+            "name": "resources/scss/element"
+        },
+        {
+            "type": "folder",
+            "name": "resources/scss/section"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/style.scss",
+            "size": 1851,
+            "hash": "079142803853bf50fc24f37947c72ab4a423f67001cc280f2752c62eea269ffe"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/auth"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/client"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/components"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/dashboard.blade.php",
+            "size": 568,
+            "hash": "70d4a559f5f5dd85e005cdbbbbe6e40aec2703405319c3a352870ada32d81f18"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/layouts"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/profile"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/welcome.blade.php",
+            "size": 28641,
+            "hash": "8cde6dfef88547681e2121cc19398a96a3c9448099ffd173091ce2b4168394e2"
+        },
+        {
+            "type": "file",
+            "name": "tests/Unit/ExampleTest.php",
+            "size": 243,
+            "hash": "ffacae5c1a2a44c809420af5b3b404910da1b12167d58764dac6d10b8ba8cfaf"
+        },
+        {
+            "type": "folder",
+            "name": "tests/Feature/Auth"
+        },
+        {
+            "type": "file",
+            "name": "tests/Feature/ExampleTest.php",
+            "size": 359,
+            "hash": "aaa4a192fb4aa96d4e81eda06a29968da3d9a73b71026b87a67297e66dd985b8"
+        },
+        {
+            "type": "file",
+            "name": "tests/Feature/ProfileTest.php",
+            "size": 2501,
+            "hash": "3138e455512864a42ac6e16af1fb75760b113e9cfab0684119048f1393941544"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Controllers/Auth"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Controller.php",
+            "size": 299,
+            "hash": "663e9f40be59adb09c7acd871da814b78216e79120f10375da0a31a6cef968eb"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/ProfileController.php",
+            "size": 1416,
+            "hash": "01586a456c9162ecf08234897b47ab29828e67b185e68983932ecc41a76ed355"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Controllers/client"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Controllers/server"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/Authenticate.php",
+            "size": 409,
+            "hash": "c69d845968ffde805f6a18a062a42023ee921f990a0f41ff61bdd23de24f3394"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/EncryptCookies.php",
+            "size": 307,
+            "hash": "958e86e38afd4321b443b8c4aaef17fc956bbac93410d54af2f74213c52e9b87"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/PreventRequestsDuringMaintenance.php",
+            "size": 366,
+            "hash": "63a907517beed52be7dad5dbda73e9ecd504b1cece86a80c007526998e146974"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/RedirectIfAuthenticated.php",
+            "size": 760,
+            "hash": "8875f7d265d5222ef41ca7f401908fd600e5d831f5694e322e6ddd607a1968bb"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/TrimStrings.php",
+            "size": 381,
+            "hash": "107bf2dc8b970b2956548ab63221b350587f1fb94792f786f047723da5e2c615"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/TrustHosts.php",
+            "size": 379,
+            "hash": "899cfaccd4420dfa7c15c0e650e22e5397bdc699344576518b8f972be45b17dc"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/TrustProxies.php",
+            "size": 649,
+            "hash": "9ba084335e120f472f21ced3e062e07dca6333e8ba91029e44dfec485f9c6485"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/User.php",
+            "size": 711,
+            "hash": "b561e3994e45003a749f16de22c94478917fe38c8b8a3edafc6d1b5339a6170c"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/ValidateSignature.php",
+            "size": 460,
+            "hash": "b63174bf5ac6fbb47dc97cc29e243d68500c27fa1845961a789df1587b8a35d4"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/VerifyCsrfToken.php",
+            "size": 357,
+            "hash": "3239a43d5bbc05210508d563b703ec96592ad779fde4704cd72b9349396194d5"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Requests/Auth"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/ProfileUpdateRequest.php",
+            "size": 615,
+            "hash": "bc051edf117e9f4210b66a34dd1875f1781e5f279bc9b453a73eef1de5a528aa"
+        },
+        {
+            "type": "file",
+            "name": "app/View/Components/AppLayout.php",
+            "size": 296,
+            "hash": "c57c4ac36e5603ca09b66674a3a01b427528948ecf1f7a93d06d52818d9319b5"
+        },
+        {
+            "type": "file",
+            "name": "app/View/Components/GuestLayout.php",
+            "size": 300,
+            "hash": "35663740cd39dc5f726b24e402babb41d0af62e09567c0e717235586fa3d9f80"
+        },
+        {
+            "type": "folder",
+            "name": "public/client/assets/css"
+        },
+        {
+            "type": "folder",
+            "name": "public/client/assets/fonts"
+        },
+        {
+            "type": "folder",
+            "name": "public/client/assets/js"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/mail.php",
+            "size": 1858,
+            "hash": "43a755fc4012ee4cb43f451cc11754354f25c18bcd9663550686508d8ad7810e"
+        },
+        {
+            "type": "folder",
+            "name": "public/client/assets/scss"
+        },
+        {
+            "type": "folder",
+            "name": "storage/framework/cache/data"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/element/_button.scss",
+            "size": 271,
+            "hash": "03df3cd3960ad75c325d4f86c486111b5108bd17fd289559ef813c23660f87ac"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_404.scss",
+            "size": 2644,
+            "hash": "da86be936dabae7e58ca9b32f2798b52aa2b9664062bcfa30479f5289893b62a"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_about.scss",
+            "size": 8909,
+            "hash": "51c05e1b8a5be2495779d24496bd3a526315c9ec9c16eb6a0728351f0a3699d7"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_banner.scss",
+            "size": 1747,
+            "hash": "70ea52caf08d12d05c24da34af26b34fbda08087c89c987b6e810f0c62fc4634"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_blog-details.scss",
+            "size": 8874,
+            "hash": "323d506220539f939186db4d14322c8acf02308aab9f5a1b0fa738ed894d0259"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_blog-page.scss",
+            "size": 11003,
+            "hash": "d5632f243a25b3b76a08d492991c6f96e739cd4934ee218c09380250c011925e"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_blog.scss",
+            "size": 3054,
+            "hash": "0b6e486a753053c911c65fce84de23c126eedb9df34ef34ea7e5987c6ad86fc3"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_brand.scss",
+            "size": 1145,
+            "hash": "5af84d80cfaca5d3c9cdfcf89241699905f34145016567d43e227471aa9df900"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_cart-page.scss",
+            "size": 7703,
+            "hash": "4c1abf9f56c8701b7bc568001e1116467548d0de6a8ad078682d556f43b3b750"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_checkout.scss",
+            "size": 6726,
+            "hash": "3172722d80fe26501d6e3bf3928c3f41790e6860c6b7d7dd702ed096533f2add"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_coming-soon.scss",
+            "size": 4941,
+            "hash": "d61b21d24ea04f8d0406e0a8c75320b0df775e72b540fa42d6cde27617189767"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_compare.scss",
+            "size": 5391,
+            "hash": "4cfafb437be3045bbcd90d708796892c3fd5c38b50f40846ae5af84b5acbdf5b"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_contact.scss",
+            "size": 2433,
+            "hash": "d4ae6d685fbdb0f5844e8f2800f56fbeca1cf785088e08732c6001ff3a038e3f"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_faq.scss",
+            "size": 1917,
+            "hash": "1a02a19c9b19ff7353fcfa1aceebd23dfba806c463a6b8141daeafefc824ca4f"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_footer.scss",
+            "size": 5437,
+            "hash": "86a4be658b5f20b4f0e243487cded3c360349eaa0abf70ce87b9f8c94c84094f"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_header.scss",
+            "size": 58556,
+            "hash": "e9db5288bbc435788e2bf794a58d99a8c60b27bd93741ef5540c5715cf92c43d"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_login.scss",
+            "size": 2459,
+            "hash": "9d20fd47a0a34476075a9fc384c21808ba794c9eb488e796b8233d5296987ccc"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_my-account.scss",
+            "size": 3476,
+            "hash": "1491f12b940c3c4f8a0c34d099bb2ce845c9bb340ae17c2dcd12be015fae2edb"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_newsletter-popup.scss",
+            "size": 2736,
+            "hash": "43fa44c4b9ccdf2a54c46031a8aa0266bae326fbaef7fdd24444bc42e91eeca1"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_newsletter.scss",
+            "size": 3308,
+            "hash": "3370e13b1000e5912df0a7d983a6c72e248959cca977581e08787a54099bc8a6"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_privacy-policy.scss",
+            "size": 1975,
+            "hash": "c0932e8ef2eeb390211f501e3265d9c231e4cb7222a7cd2cc4a2a60cc632033c"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_product-details.scss",
+            "size": 21293,
+            "hash": "d5e322949380e0160931980d6e11e505c5a3b4141283c4b3da3955c0c6d7c7eb"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_product.scss",
+            "size": 19449,
+            "hash": "bca8c276cac16fd8a93487b68a6ca9f2b6ee86e8c8d1844ff1e207c93956de4c"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_quick-view.scss",
+            "size": 6602,
+            "hash": "6bf53e9b6527197c1fc3ac864edfb9b85df0dfeb6f7a3df25c915ee68713605b"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_shipping.scss",
+            "size": 1798,
+            "hash": "0c5a66a89d974a6ea7f03c5257b2da4f39c8bbd74d11bceb3bb0e95cbb5cf099"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_shop.scss",
+            "size": 19139,
+            "hash": "4b42769e0bdb21c334b7b8663c1a3bf4a89b401ba09df6a80b43267ebf32fbc3"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_slider.scss",
+            "size": 10513,
+            "hash": "b81bda908548a84f0fbec029bd592030aa081de2b98aae7e521d78ba0d5b19f9"
+        },
+        {
+            "type": "file",
+            "name": "resources/scss/section/_wishlist.scss",
+            "size": 1702,
+            "hash": "9e8adfae515094627d41d1593760fbc240d43d8d86c45b7c0629ca1b9dff888f"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/confirm-password.blade.php",
+            "size": 905,
+            "hash": "73ef1f56a26a2db2bf20955da8424286fda4a69cf0262b0542ddfe2f40c2316c"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/forgot-password.blade.php",
+            "size": 1000,
+            "hash": "13ce0909d1e43f1cb5546f1643e79ed57ddc9b781636a319b941cccbda7b3998"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/login.blade.php",
+            "size": 2155,
+            "hash": "3b81f65a2d4a6435dcdbab3008ee431880ee6ebc6b76c836a2be06774a35e405"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/register.blade.php",
+            "size": 2259,
+            "hash": "96a142f5c0135f726a7eaa7e744271532bc01a5119df324270ec4732b2d8fe4d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/reset-password.blade.php",
+            "size": 1646,
+            "hash": "5538223153ebf6c589639ca7c089093f5b91d9edb2eff781d4d4b536d11ef753"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/auth/verify-email.blade.php",
+            "size": 1361,
+            "hash": "ffa95c29e131a721f22f7ee5af0a417a76e3a86abf0cbcc8f0a8ddf9dcb31837"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/about.blade.php",
+            "size": 16177,
+            "hash": "d37cc0c9d36e4d32d0f1166106963106024ca591ab9abfd6c78286387505b262"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/account.blade.php",
+            "size": 8116,
+            "hash": "02b0a4add05e2a3ba1675089261e82c3e29fb5088d8cdd3f9bb3d4c0fd1fd4fc"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/cart.blade.php",
+            "size": 5257,
+            "hash": "af67ecd7715bb0815f084bbe946285ae4b62522926799b2d8fafc8e0cef34c3d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/checkout.blade.php",
+            "size": 12676,
+            "hash": "9fd1cddfe71b5bc4d57d920cf0880a0bb526ac69664e560a64551c31ba8974c4"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/contuct.blade.php",
+            "size": 3808,
+            "hash": "38e3acb382ffbc2fb8e7a6884e839bde2849ae2ac232f42f9ecc840d7fe7e42d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/index.blade.php",
+            "size": 43932,
+            "hash": "46830cddf492d5ea392bf7a4bc56a93fd29e5d8d42d0cfd18e7c2543b4a26825"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/client/layouts"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/login.blade.php",
+            "size": 2489,
+            "hash": "57affe05db9c9862dcaaf747a22b9c12bb5113994dc70ecfb212526f9fecb093"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/client/pages"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/product_details.blade.php",
+            "size": 22024,
+            "hash": "23eaf74698e7940b560c254421cc0fa461ae21cf7f1366eea18a1b4830371145"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/register.blade.php",
+            "size": 2789,
+            "hash": "3e5a33555e102244fccbdd5bb1ecaacb51bc2be6ebb1d40a9644473b0048263b"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/search.blade.php",
+            "size": 14687,
+            "hash": "1c227bcad9e33d60273878b5a043423db9c0e29e32d1d39392cd6b24c2cd43bb"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/shop.blade.php",
+            "size": 15706,
+            "hash": "953c44b8bb3db479ee7e47743afca542a6627d9fccd62024f88778507b6741a9"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/wishlist.blade.php",
+            "size": 7108,
+            "hash": "82badb8b6558c970f62f721ec29949127f10446ef87a5e91daeeb54bbbf1864e"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/application-logo.blade.php",
+            "size": 3045,
+            "hash": "ad0b1c3fa2a891293a2ae718b41a10879d53e88d26f892a20db2774c6661fc60"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/auth-session-status.blade.php",
+            "size": 180,
+            "hash": "2811f755848199081f143b74fee903818079f0e43234355b0cb242bbf1f05a33"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/danger-button.blade.php",
+            "size": 412,
+            "hash": "bc23914b3405181f03e693297a51e5136b31b0615b07dbfd84b9e7a362c2fb9e"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/dropdown-link.blade.php",
+            "size": 282,
+            "hash": "20d46012fda371e862840934924ea3b995cb492ed0c5fd7e963e472b59d080be"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/dropdown.blade.php",
+            "size": 1395,
+            "hash": "ed6fcd1ceda563c2bdd04f0195c95230f7d642e2436c7cb06642fb342f0f844c"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/input-error.blade.php",
+            "size": 259,
+            "hash": "c1f1ef324466c47f2db492c9c9c87a0f73108381d83b4f4f5f8304e22fe9249d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/input-label.blade.php",
+            "size": 162,
+            "hash": "b7cdf34d55a32ca60fe3e97885daf03c8c40bcebbcb12d354573762b1380e3d3"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/modal.blade.php",
+            "size": 3156,
+            "hash": "d5027629db3b95aa7fb0af819ef17befe783049d573a9ba66960611656cb4952"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/nav-link.blade.php",
+            "size": 770,
+            "hash": "9abffe01937dff82c9b127f33f114981036dc0682d5fd314ec935496111e2fb4"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/primary-button.blade.php",
+            "size": 536,
+            "hash": "d5e7b882b8ab0f971f95fd7dfc1f895707bc07e9ac3158de4681362d239398df"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/responsive-nav-link.blade.php",
+            "size": 1004,
+            "hash": "efbd9b03d6f2c49adc12185d37b25e784ba19a93c74f1b97a51118db56e564a9"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/secondary-button.blade.php",
+            "size": 505,
+            "hash": "fe7a3407ee9205023870442da5c3ed63f6c23070f6a41fab3d485f1bf1aeb4cc"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/components/text-input.blade.php",
+            "size": 312,
+            "hash": "3e812b9189190ebf0abc090548670b797bddef2edbf68ed600c91e66a7713ecc"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/layouts/app.blade.php",
+            "size": 1224,
+            "hash": "910060a44cca1a007b11e2548f39df854036ed4617337228b3e2cb3034fd4c05"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/layouts/guest.blade.php",
+            "size": 1178,
+            "hash": "c1be985f12222459ba3564d3bc56281b4c572037e9d5485b73d6e81868525c34"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/layouts/navigation.blade.php",
+            "size": 5286,
+            "hash": "0ee0e7f4428c617caad8b689e99e21c82e3f0e6e38ed8238728217852695c45c"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/profile/edit.blade.php",
+            "size": 1039,
+            "hash": "21656e9f77e7de92c6019cb3ebd75152cb5bf3db7225a0d017b6ba8a33f52502"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/profile/partials"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/ad-zone"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/admin"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/banner"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/category"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/company-details"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/customer"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/layout"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/login.blade.php",
+            "size": 8610,
+            "hash": "de7fcafeac612e19803522b18d82002c479f073e4fa0cd5b86bf4051a4ab7c09"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/order"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/product"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/product-type"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/product-variation"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/server/stock"
+        },
+        {
+            "type": "file",
+            "name": "tests/Feature/Auth/AuthenticationTest.php",
+            "size": 1301,
+            "hash": "bb801c765b7661fc18b9c59ffa7ed7eca3f396fae8a6636a9436a9e408f79dff"
+        },
+        {
+            "type": "file",
+            "name": "tests/Feature/Auth/EmailVerificationTest.php",
+            "size": 1790,
+            "hash": "6ff6919ddfa4fec8ef477f357d5b7d64c5990227751fba1da6fa269b3c5aab84"
+        },
+        {
+            "type": "file",
+            "name": "tests/Feature/Auth/PasswordConfirmationTest.php",
+            "size": 1082,
+            "hash": "255e0c8d39d61cde86a497fa845aae4e0a4f593f83d4c3591e8f149e68e696e3"
+        },
+        {
+            "type": "file",
+            "name": "tests/Feature/Auth/PasswordResetTest.php",
+            "size": 1926,
+            "hash": "6532c57beab9e63183887f5cfff0fda4479c468bdaf18ea4ce8cd97cc9ecba7b"
+        },
+        {
+            "type": "file",
+            "name": "tests/Feature/Auth/PasswordUpdateTest.php",
+            "size": 1409,
+            "hash": "b27324ba50657f96d4ae98b15c413e0b0c5c475d84120b983227be70bc6189b2"
+        },
+        {
+            "type": "file",
+            "name": "tests/Feature/Auth/RegistrationTest.php",
+            "size": 782,
+            "hash": "9549afcac774e235dc937b5d1ff63471a36ece74e4917cc79ff0adebf128ba5e"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/AuthenticatedSessionController.php",
+            "size": 1069,
+            "hash": "d3f34cd6bf783f348ea033e755c951005abe4782a3b1655b66bfa6825c7e20c9"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/ConfirmablePasswordController.php",
+            "size": 1055,
+            "hash": "ef9b28ac6d6807823297254b19a4308bd9d3c5e145334efb686c03851ae8ec3d"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/EmailVerificationNotificationController.php",
+            "size": 661,
+            "hash": "5c6ec943c7de7133022d2cd049c7db9d9788430860d79c670e6dbe00f8c9db46"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/EmailVerificationPromptController.php",
+            "size": 595,
+            "hash": "c4f0e648958cb22bd7350e7bed67989664366688dfd71fb1f3ec33c42b784921"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/NewPasswordController.php",
+            "size": 2188,
+            "hash": "fb639cf4ba91c761f4ab5bc2541d80d59e2677ae7e719a4b40d4300ddfd30222"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/PasswordController.php",
+            "size": 795,
+            "hash": "81f68e0aa74f66038082364499dde9a1b1d93ca961448bd8b46bc77aa17117fd"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/PasswordResetLinkController.php",
+            "size": 1315,
+            "hash": "d77bc40b74a6ba2a0b8cea33374ce0be042c3e3036fa5cadc9b7a2c62f92c28f"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/RegisteredUserController.php",
+            "size": 1364,
+            "hash": "5ee6d291d079153874431c171845d431cc3f55ba9d06bcc45d16e73051807169"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Auth/VerifyEmailController.php",
+            "size": 822,
+            "hash": "a9326c0f602d7afc06f616492fb6a8d9229b54253bbf04cfdc1b41cf1764f0c6"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/client/CartController.php",
+            "size": 1694,
+            "hash": "41f9787b94140190b082ff1305ab1ffffc8d6f4dce11ada9130875e5f7b13296"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/client/HomeController.php",
+            "size": 7122,
+            "hash": "45cc776b1b324f60edd4c87372a5f1b53a56197c05d1b2aecb7021c53673f318"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/client/ShopController.php",
+            "size": 1921,
+            "hash": "1d804f9d3927c5148b4f4722c7c6519468cc2a0d659baad9c804c8ec6dda6ad7"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/client/WishlistController.php",
+            "size": 1384,
+            "hash": "b44d9ec732ce49f80155ac21682a7d28be2f5b503d5ea06c0e24436e482f17a3"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/AdController.php",
+            "size": 5732,
+            "hash": "f2ac16569432203634320d1ca4285ce92a560eeeca222a084eebda0eacea51a5"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/AdminController.php",
+            "size": 5970,
+            "hash": "e855b504b62164509d2a166740c63e0c6bb6fc21572d4011138a1332c039e20e"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/BannerController.php",
+            "size": 4321,
+            "hash": "62aaf4959b6bcd693fe57e95fbfe75e4d370d203a7f42d57167f1f4ca5cce1f5"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/CategoryController.php",
+            "size": 5948,
+            "hash": "5316ccdb80c693569459c076cb94dfd0c198cd49458e3e62fb5b7fc91754c326"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/CompanyDetailsController.php",
+            "size": 3813,
+            "hash": "65d3b7b213fb0c9b8126614e111cea09d09024d8503eb0623c9b9b8bb0d62117"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/CustomerController.php",
+            "size": 1241,
+            "hash": "ba9b547b9cfd5060e3627f57b1a3bbdc4e910f4f226f5b6d38615405595cccd6"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/OrderController.php",
+            "size": 5578,
+            "hash": "2668f8d91fb498f851a78f259d795a29d2f824f3c61dba4ccfb7efcba933ea46"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/ProductController.php",
+            "size": 12131,
+            "hash": "b9092ad1302ace0ac4dab45b626f54cc0e90a317dc85e09829e590aa8b05a488"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/ProductTypeController.php",
+            "size": 4379,
+            "hash": "2be70d8576f23bdd89f8ead6967b4afc07f4994444faeaabe6ed0270e361dc00"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/ProductVariationController.php",
+            "size": 2833,
+            "hash": "bfc550feaa29cff1fcafd7b305bc31e5443cfd86efbfb9e545c99dab3275f11c"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/server/StockController.php",
+            "size": 2897,
+            "hash": "03db41ce99a381d762e60f3a7bb1879b38c0448a8bd49f4046f0698668a75da1"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/Auth/LoginRequest.php",
+            "size": 2215,
+            "hash": "a638833a2a42b2a500fc239abd91efdebbc2d134f7d73483fff50b8678c7c388"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/component.css",
+            "size": 913,
+            "hash": "19753e7d88b7bfe5ac7daec81d0d27d3114ed49812b8a54ae4337316d4648450"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/custom.css",
+            "size": 13096,
+            "hash": "b241465356e8a0a457c9efd984e410270fdc4ef10776142bde5b098e95530ef6"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/custom.scss.css",
+            "size": 2156,
+            "hash": "d4bdec95d98f8acc53961e3a7991fd3646f1aa1b311883a576b613d09c992308"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/plugins.css",
+            "size": 483600,
+            "hash": "04f2ff0c32c0175e59ed35163379692b42b77095f249facdecfc4f3b49c90afa"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/settings.css",
+            "size": 34350,
+            "hash": "225cd7f7d5dc722751f81399806533007b6b721cb9b3cba40649f1b1965f7b58"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/style.css",
+            "size": 223523,
+            "hash": "e94025971ece952b1242fbbb281428e4482b5955ea8b8817eeddfe377d71808b"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/style.min.css",
+            "size": 167255,
+            "hash": "757c301b8091c4702f88468897a05547db4c8ea6bc9a2ac2002a6ebb4401f3b9"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/theme-styles-responsive.css",
+            "size": 32356,
+            "hash": "7646430fe1c336e0c03051e2cc2fbbef1615dd39c0e92901d504d46ffe9a763a"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/theme-styles-setting.css",
+            "size": 12021,
+            "hash": "edfcfa92dc36f57079db1f135a873d98d4ce50bdd570e006613d31ab7d2edcb1"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/theme-styles.css",
+            "size": 153453,
+            "hash": "eb40111565e6021ee76cc47d93cb49fc2a141348cc32422f747f4945ddb03297"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/css/v5.globo.search.css",
+            "size": 17746,
+            "hash": "ca7aec4b763bea379a07a2dc397a8e37d6e7f46a0ff5ca2e041ab42dc535cbdd"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/FontAwesome.otf",
+            "size": 134808,
+            "hash": "444dd4366615ffc4a16d012b2fa90137065d3ccb410fa6fd5e4ddd7b5e4ffcd5"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/Material-Design-Iconic-Font.eot",
+            "size": 42495,
+            "hash": "fb37e1e79a43463400e850747a5c32e0b116a7b2bba3335a600e12fd4bd9d47a"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/Material-Design-Iconic-Font.svg",
+            "size": 238287,
+            "hash": "e3ae6e3ec6fc5e38f73ef6a7b31d3f8b61a0994ebce133953ca7aa21df57f1f5"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/Material-Design-Iconic-Font.ttf",
+            "size": 99212,
+            "hash": "18a45be2ecb66ce217c3bbccf219f8bdc05dc76d61a6e63673186efd1c7cda1a"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/Material-Design-Iconic-Font.woff",
+            "size": 50312,
+            "hash": "7c74c136895350e927bf69fe9fcb9f33fe9fae6340709d6ec4f8cb838a9470a3"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/Material-Design-Iconic-Font.woff2",
+            "size": 38384,
+            "hash": "e8eea96e29a7c0a72612ab85ca3229979666467a28349642c2176e7189a1a39c"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/fontawesome-webfont.eot",
+            "size": 165742,
+            "hash": "7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/fontawesome-webfont.svg",
+            "size": 444379,
+            "hash": "ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/fontawesome-webfont.ttf",
+            "size": 165548,
+            "hash": "aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/fontawesome-webfont.woff",
+            "size": 98024,
+            "hash": "ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/fontawesome-webfont.woff2",
+            "size": 77160,
+            "hash": "2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/ionicons.eot",
+            "size": 120724,
+            "hash": "a4803d7bdeb478a5b9238fe74d8aaa98dafe2e8e68fccbd0e3f4dced823f27f0"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/ionicons.svg",
+            "size": 333834,
+            "hash": "a627d9068c1235d9b3c95c405eb6ecb64a290b159cf5e926c0d96d89b24cd5fc"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/ionicons.ttf",
+            "size": 188508,
+            "hash": "2ba7f20b1d8990e17a47fe3d88e4c766628aaa2baf1dd30fca0a0db59836f5f9"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/fonts/ionicons.woff",
+            "size": 67904,
+            "hash": "709f2789daaff440820ebb975d3ae409af45121bdec47e39e83523490b1bc0fc"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/js/addToCart.js",
+            "size": 25448,
+            "hash": "8633513a4a6576da71a221f52c5b4d6e7bda926d7e1b76cf0e273fbfffe9be0c"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/js/addToWishList.js",
+            "size": 10234,
+            "hash": "2d7b3cff6e2374380ccf2baef53dc02fedc77c68feff85e8f1f1acf80b61be63"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/js/main.js",
+            "size": 23054,
+            "hash": "9dee84b01c7eb100be39be2ad1d93c13d17f4288f606198b629c4f3e07e75f68"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/js/plugins.js",
+            "size": 683842,
+            "hash": "2d4aba7264fe7402923bfba9be50263248bffd7ded0ed8a502097b98d1474334"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/_common.scss",
+            "size": 6949,
+            "hash": "f1e7412501c28a8f9593e924a411edaeb184c20784248cac66b41b4456a6c263"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/_mixin.scss",
+            "size": 492,
+            "hash": "013da6db25961a4eb2f9be779526d9eba14421f9ace85cb790345a26634e4968"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/_variabls.scss",
+            "size": 1725,
+            "hash": "2e2b75150ae023c3bcbf3bfdba827e3113e5abd0b3cea04e4ce58f28546d3dfd"
+        },
+        {
+            "type": "folder",
+            "name": "public/client/assets/scss/element"
+        },
+        {
+            "type": "folder",
+            "name": "public/client/assets/scss/section"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/style.scss",
+            "size": 1851,
+            "hash": "079142803853bf50fc24f37947c72ab4a423f67001cc280f2752c62eea269ffe"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/layouts/_all_categories.blade.php",
+            "size": 451,
+            "hash": "ed94995445e1e81ff8c0bc2ff3f60359c825b81ef97e3e0b1a11d20b18cf14bb"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/layouts/_mini_cart.blade.php",
+            "size": 809,
+            "hash": "cae45a3dedaa2bcac7ef1d7e10c59fa73b4618a04493f8e5f8a85a434271232d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/layouts/_quickview.blade.php",
+            "size": 4643,
+            "hash": "f88064e3fa0306b15ee139f156a80132ef4af60802f9b4b707bf3b018ac7257b"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/layouts/_sizeguide.blade.php",
+            "size": 1522,
+            "hash": "195b2bf384f196e157c9157cfc5b49631280c285cea75190c382c45075b3df4c"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/layouts/bkp_menu.blade.php",
+            "size": 30279,
+            "hash": "ce7aa4a508e73f45a5809abfeb4ca43fd4126332d8a9bf706be6b28f7d2b86ea"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/layouts/footer.blade.php",
+            "size": 7979,
+            "hash": "d8a15b251d78fac07384361a850632f6755fb70c6aecc26d4afe3e146efe0021"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/layouts/header.blade.php",
+            "size": 962,
+            "hash": "6fc1512f2b201fa23b80e6c493a502e14f83d5edc8e2cd3dee816fa06ce900bf"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/layouts/main.blade.php",
+            "size": 180,
+            "hash": "4d89730b61190d8b54a5a3437d603ef567342b659b0bf0fc66ec33d364566ba9"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/layouts/menu.blade.php",
+            "size": 10639,
+            "hash": "acb3036bff929e7f6dd2d030c030c0fc36fb8b3d3659ac68b70f13010b2e6851"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/pages/about.blade.php",
+            "size": 1976,
+            "hash": "05d3a9d746194704f0b1dc8fe416cac771e8a2df4e6bd5b8d05224d69a0da848"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/pages/career.blade.php",
+            "size": 1475,
+            "hash": "71bfa0bfa8273bacafbfd0d368118bf887d62dd8177b587a7c21ae6994dcc8e4"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/pages/delivery.blade.php",
+            "size": 2350,
+            "hash": "c9de1423da61552a9cab940567f851d6d7b98ea55347ef531e1bfef5e0d1b351"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/pages/exchange.blade.php",
+            "size": 2068,
+            "hash": "d22fd927a6027eca8641730b51036e5efdaf20da0843424f94b606c75e73791f"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/pages/privacy.blade.php",
+            "size": 5644,
+            "hash": "62abd13f48740bdb51b921927c10d833e87703f87689934a402c88100432f126"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/pages/sizeguide.blade.php",
+            "size": 1268,
+            "hash": "433bf42a80962033d4ad739d914668873e3a0cb5e984e3ecdd8ff85547950932"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/pages/store.blade.php",
+            "size": 1274,
+            "hash": "e227f6e48dcbfb122ca7dfbdb1c883af10c11d00658687967c1807a791c1f2b1"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/client/pages/terms.blade.php",
+            "size": 1285,
+            "hash": "99816cb9d51159f74412f4aa32ea5ce692a4b8cfff20595dab6776df190a47f1"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/profile/partials/delete-user-form.blade.php",
+            "size": 2216,
+            "hash": "2d0dc45e5b7b5af9550d98e0fa975c64b00aac48c9ba9e3cd03cae336054af0a"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/profile/partials/update-password-form.blade.php",
+            "size": 2079,
+            "hash": "e7315338b67f155805cd7d897865b1c040b23edd57159c0e5be66a21597d9bc6"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/profile/partials/update-profile-information-form.blade.php",
+            "size": 2846,
+            "hash": "7783a52126583694553b216c74024ab403d706e791007bda7a283bbe8f0d02b6"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/ad-zone/create.blade.php",
+            "size": 8872,
+            "hash": "4e8f3bf9a6c1e49af4d76645e8d317c147e66dab5336f1e2a2a9edab9578d01d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/ad-zone/edit.blade.php",
+            "size": 10437,
+            "hash": "4b9e4fa8468b2492d147a2698306f6d0fa4110e93e7e50eda1423b4223320c13"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/ad-zone/index.blade.php",
+            "size": 11830,
+            "hash": "abd405109f50ad30bdd1f1c51d8813240eeef63afec75b4dd3c5d7ae5702ecfa"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/admin/dashboard.blade.php",
+            "size": 55129,
+            "hash": "0aacbdb02bce81ee910f1d3908662441a37e328383acfa49956c0dcc254e9ab4"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/admin/dashboard_old.blade.php",
+            "size": 44582,
+            "hash": "bdc8fa1b8afc053893a17fb73c80f22ce3604627a657271a708287ea9e5d4fb4"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/banner/create.blade.php",
+            "size": 8100,
+            "hash": "c7632cafebb89857181624b4cbb864eb0bffc6029d761e59cb78d649c10e6a71"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/banner/edit.blade.php",
+            "size": 8444,
+            "hash": "14695df7bd3d576c9e140a25dd577dc68a30f60582b5968b3f4bd6084faad6d9"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/banner/index.blade.php",
+            "size": 12223,
+            "hash": "bc2181a315871814ad4d9cbc01b2034529efb720a76ef618f182bd8a50804f8e"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/category/append_categories_level.blade.php",
+            "size": 2690,
+            "hash": "787f57fceda413e582daa6c39ef7d3be1978006967eb366e0b03665b01b30310"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/category/create.blade.php",
+            "size": 11408,
+            "hash": "055ab5a94513944349e1be6dea09c988c4a9eeeacef77572ab90a9c489ec26cd"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/category/edit.blade.php",
+            "size": 12712,
+            "hash": "6a0efe3a916982fd2167ec87a3b1af61184935f259f2d2e777f50aac3ad9b1a1"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/category/index.blade.php",
+            "size": 14576,
+            "hash": "133a53f0e93f583617b50eda6467ceb6504bbc1fc6c0cffed993749da601a3f8"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/company-details/edit.blade.php",
+            "size": 16098,
+            "hash": "bdb3538d48bdcd8c8caf9b2d40c323ab8fc3e7c2c454781d9f4c9d9136dede28"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/company-details/index.blade.php",
+            "size": 9823,
+            "hash": "eae943f662f188b5f3655e5ad3971fc86ed9aca4745ea83adc287968cd5f1eeb"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/customer/index.blade.php",
+            "size": 9789,
+            "hash": "24003be7d8a64cb96094dcfbbca712fb3a2985c3ccf607406b0ad1d8d6d7b235"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/layout/footer.blade.php",
+            "size": 428,
+            "hash": "c037d115b452082b29a4effa0d0a29db103d5ce40e4b72b5b7c0fbe8d33b4b4a"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/layout/header.blade.php",
+            "size": 1070,
+            "hash": "900e1e7ac9549b22cdd31c00c6fb3e6a5a05ead4d7f81c1f1bf83659f2a13de1"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/layout/layout.blade.php",
+            "size": 651,
+            "hash": "8b0e83b0f51c7db9d8aac4e60dff11211245e8aad28717703024de918e87a221"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/layout/menu-bar.blade.php",
+            "size": 10182,
+            "hash": "891116ee5b5357d45d84e1090f792eeed704eba68cf7ea59ba287de6d1af42ed"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/order/cancel.blade.php",
+            "size": 9887,
+            "hash": "ede8fa2bfe1fc58de3e1ba21b94bd46f2209cfb60aef00f20d62dc8c8a2a92d7"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/order/confirm.blade.php",
+            "size": 9893,
+            "hash": "2bd3f2301e48beee02e0c8248f03827efbc0f41dc9f0b4b26e2b9eac7a789926"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/order/delivered.blade.php",
+            "size": 9889,
+            "hash": "6c88c8704443103268d0e7524cc5055e70690fd8fe5723a3be9c8378e70e89a6"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/order/edit.blade.php",
+            "size": 10105,
+            "hash": "94c44f82d7824da06869e274c2a221c425214274fa2defb752cbcd07a5c376b0"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/order/index.blade.php",
+            "size": 9861,
+            "hash": "63973fc2616f40827ef897a2fd4dbb7a1c99992661dd1cd26c819844e730176d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/order/order.blade.php",
+            "size": 9869,
+            "hash": "afd84dc3711e92ee131cb12d5867c37cac288cd9edd06b9d0fa4c710b8d6c426"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/order/orderdetails.blade.php",
+            "size": 8437,
+            "hash": "0a2eb4eeca380a8a37a5c791271e4562140023aa05d8ec0bc05490905fccf43e"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/order/shipping.blade.php",
+            "size": 9887,
+            "hash": "0a49e8a831da82ca8d50d18cb768c56e62379001cedff2103525b0fc21706643"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/product/create.blade.php",
+            "size": 26859,
+            "hash": "d046a9f5bcbba5eae09c917a2db98e4a60120e82709dd7be3113a9c3b2021e7d"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/product/edit.blade.php",
+            "size": 31686,
+            "hash": "944f6be60a6cc5834c71756d6a406faed6cc2cafd901124bee5a1370bff8a764"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/product/index.blade.php",
+            "size": 16267,
+            "hash": "b686ee715ff5e62b807352f92ced5167f2f64c8fd13423e7e0c85f794ef12c8e"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/product-type/create.blade.php",
+            "size": 8071,
+            "hash": "aee0d73555e70432dfdee8d81a1c6fc003f636fc1a9b6780f0271b9d4fbef8bc"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/product-type/edit.blade.php",
+            "size": 8452,
+            "hash": "d202c589ee2993db2b894f53964f76d47661e2a6a881240a9f74b5c43409201f"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/product-type/index.blade.php",
+            "size": 12311,
+            "hash": "ab89087caad47a0271ade0f9e1ede12d06fd2631bc8c0fddf7ccd2823cf59c76"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/product-variation/create.blade.php",
+            "size": 16543,
+            "hash": "a474a3ce7f1f67c43c4d70695f00ef5f5e4c9b69cb4238d5ea976bd3cba71698"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/stock/details.blade.php",
+            "size": 10143,
+            "hash": "cbe6526f675b894359eb5bef0863b0724555eaac52965f0fcfaf7d4219aa7169"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/stock/edit-details.blade.php",
+            "size": 13231,
+            "hash": "4e193025ba78cafc9caeab7fe90dd207110b99df26cb0c7d99e5560a94b103e9"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/stock/edit.blade.php",
+            "size": 11562,
+            "hash": "80a516219f46aa90ee85b319ccaee30dd993f7d08538e653c868e0bd47df8c67"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/server/stock/index.blade.php",
+            "size": 12203,
+            "hash": "5b18d70ae1119fc5d924e0c636252eb6719af783d1af8b43cb3b830114ccce67"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/element/_button.scss",
+            "size": 271,
+            "hash": "03df3cd3960ad75c325d4f86c486111b5108bd17fd289559ef813c23660f87ac"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_404.scss",
+            "size": 2644,
+            "hash": "da86be936dabae7e58ca9b32f2798b52aa2b9664062bcfa30479f5289893b62a"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_about.scss",
+            "size": 8909,
+            "hash": "51c05e1b8a5be2495779d24496bd3a526315c9ec9c16eb6a0728351f0a3699d7"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_banner.scss",
+            "size": 1747,
+            "hash": "70ea52caf08d12d05c24da34af26b34fbda08087c89c987b6e810f0c62fc4634"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_blog-details.scss",
+            "size": 8874,
+            "hash": "323d506220539f939186db4d14322c8acf02308aab9f5a1b0fa738ed894d0259"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_blog-page.scss",
+            "size": 11003,
+            "hash": "d5632f243a25b3b76a08d492991c6f96e739cd4934ee218c09380250c011925e"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_blog.scss",
+            "size": 3054,
+            "hash": "0b6e486a753053c911c65fce84de23c126eedb9df34ef34ea7e5987c6ad86fc3"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_brand.scss",
+            "size": 1145,
+            "hash": "5af84d80cfaca5d3c9cdfcf89241699905f34145016567d43e227471aa9df900"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_cart-page.scss",
+            "size": 7703,
+            "hash": "4c1abf9f56c8701b7bc568001e1116467548d0de6a8ad078682d556f43b3b750"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_checkout.scss",
+            "size": 6726,
+            "hash": "3172722d80fe26501d6e3bf3928c3f41790e6860c6b7d7dd702ed096533f2add"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_coming-soon.scss",
+            "size": 4941,
+            "hash": "d61b21d24ea04f8d0406e0a8c75320b0df775e72b540fa42d6cde27617189767"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_compare.scss",
+            "size": 5391,
+            "hash": "4cfafb437be3045bbcd90d708796892c3fd5c38b50f40846ae5af84b5acbdf5b"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_contact.scss",
+            "size": 2433,
+            "hash": "d4ae6d685fbdb0f5844e8f2800f56fbeca1cf785088e08732c6001ff3a038e3f"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_faq.scss",
+            "size": 1917,
+            "hash": "1a02a19c9b19ff7353fcfa1aceebd23dfba806c463a6b8141daeafefc824ca4f"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_footer.scss",
+            "size": 5437,
+            "hash": "86a4be658b5f20b4f0e243487cded3c360349eaa0abf70ce87b9f8c94c84094f"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_header.scss",
+            "size": 58556,
+            "hash": "e9db5288bbc435788e2bf794a58d99a8c60b27bd93741ef5540c5715cf92c43d"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_login.scss",
+            "size": 2459,
+            "hash": "9d20fd47a0a34476075a9fc384c21808ba794c9eb488e796b8233d5296987ccc"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_my-account.scss",
+            "size": 3476,
+            "hash": "1491f12b940c3c4f8a0c34d099bb2ce845c9bb340ae17c2dcd12be015fae2edb"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_newsletter-popup.scss",
+            "size": 2736,
+            "hash": "43fa44c4b9ccdf2a54c46031a8aa0266bae326fbaef7fdd24444bc42e91eeca1"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_newsletter.scss",
+            "size": 3308,
+            "hash": "3370e13b1000e5912df0a7d983a6c72e248959cca977581e08787a54099bc8a6"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_privacy-policy.scss",
+            "size": 1975,
+            "hash": "c0932e8ef2eeb390211f501e3265d9c231e4cb7222a7cd2cc4a2a60cc632033c"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_product-details.scss",
+            "size": 21293,
+            "hash": "d5e322949380e0160931980d6e11e505c5a3b4141283c4b3da3955c0c6d7c7eb"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_product.scss",
+            "size": 19449,
+            "hash": "bca8c276cac16fd8a93487b68a6ca9f2b6ee86e8c8d1844ff1e207c93956de4c"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_quick-view.scss",
+            "size": 6602,
+            "hash": "6bf53e9b6527197c1fc3ac864edfb9b85df0dfeb6f7a3df25c915ee68713605b"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_shipping.scss",
+            "size": 1798,
+            "hash": "0c5a66a89d974a6ea7f03c5257b2da4f39c8bbd74d11bceb3bb0e95cbb5cf099"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_shop.scss",
+            "size": 19139,
+            "hash": "4b42769e0bdb21c334b7b8663c1a3bf4a89b401ba09df6a80b43267ebf32fbc3"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_slider.scss",
+            "size": 10513,
+            "hash": "b81bda908548a84f0fbec029bd592030aa081de2b98aae7e521d78ba0d5b19f9"
+        },
+        {
+            "type": "file",
+            "name": "public/client/assets/scss/section/_wishlist.scss",
+            "size": 1702,
+            "hash": "9e8adfae515094627d41d1593760fbc240d43d8d86c45b7c0629ca1b9dff888f"
+        }
+    ]
+}
