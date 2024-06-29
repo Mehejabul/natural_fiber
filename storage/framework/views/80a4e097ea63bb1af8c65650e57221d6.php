@@ -144,7 +144,7 @@
                                 <?php endif; ?>"alt="logo"></a>
                         </div>
                         </div>
-                        <div class="col-lg-7 col-md-12">
+                        <div class="col-lg-3 col-md-12">
                             <div class="main_menu menu_position text-center">
                                 <nav>
                                     <ul>
@@ -156,6 +156,16 @@
                             </li>
                                     </ul>
                                 </nav>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                        <div class="search_container">
+                                <form action="<?php echo e(route('searchPage')); ?>" method="get">
+                                    <div class="search_box">
+                                        <input placeholder="Search product..." type="text">
+                                        <button type="submit">Search</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                         <div class="col-lg-3">
