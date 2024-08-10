@@ -2,7 +2,6 @@
     <div class="categories_title">
         <h2 class="categori_toggle">CATEGORIES</h2>
     </div>
-    
     <div class="categories_menu_toggle">
         <ul>
             <?php
@@ -31,8 +30,7 @@
                     <?php endif; ?>
                 </li>
             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-            
-            
+
             <?php if($load > 0): ?>
             <li><a href="#" id="more-btn"><i class="fa fa-plus" aria-hidden="true"></i> More Categories</a></li>
             <?php endif; ?>

@@ -234,75 +234,22 @@
 </header>
 <!-- secondary header end -->
 
-<section class="product_catgory_section">
+<section class="about_page_section">
     <div class="container">
-        <div class="product_category_wrap">
-          <div class="row">
-            <div class="col-lg-3">
-                <div class="product_category_image">
-                    <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_image.jpg')}}">
-                    <div class="category_image_title">
-                        <h5>Burrlap Roll</h5>
-                    </div>
+        <div class="about_page_title">
+            <h2>About Us</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="about_page_pera">
+                    <p><strong>Golden Jute Product</strong>is a pioneer jute basket manufacturer and exporter of jute storage basket, Laundry basket, Fruit basket, Nursery pot, Jewelry box which have an ecologically sustainable future. Golden Jute Product also produce different type of Bags, Rugs, Floor Mat, Table Mat and Handicrafts of different sizes and different color according to customer needs.</p>
+                    <p><strong>Golden Jute Product</strong>has its own facility of production. We have about 1000 highly experienced workers who are responsible for our production. Most of these women have minimal education but they are skilled and well trained. They manage to earn a steady income for their families and themselves. These women play a very important role in poverty eradication and improving their overall level of living. Our production capacity 200,000 set of basket (S/3) per month. This company is located at the Savar, Dhaka, Bangladesh.</p>
+                    <p><strong>Our Vision:</strong>The aim of golden Jute Product is to maintain a business that can produce high quality jute diversified products but have a minimal impact on our environment. Quality and timely delivery with proper packaging of the products to give complete satisfaction to all the patrons, both home and abroad is also ensured. We believe Quality and commitment.</p>
+                    <p><strong>Our Goal: </strong>Bangladesh is the leading jute producer country in the world. The quality of our jute is excellent. It has a golden history. We are committed to produce large scale of high quality finished jute products and create an international market of jute products in Bangladesh.</p>
+                    <p><strong>Our Commitment: </strong>We are committed to ensure that we do not employ child labor in our factories, no workers are forced to work and employees are paid living wages. No discrimination is practices, working environment is safe and hygienic and regular employment is provided.</p>
+                    <p><strong>About Company:  </strong>The Company has 3 factory sheds and more than 20 sub center with a surface of approximately 300000 Square meters with expertise and conducive working conditions. In compliance with this strategy, the Company has made seagrass basket, jute rope, jute tape, jute fabric, colored and printed burlap ribbon, jute shopping, and Christmas bags, jute gift bags, etc. The Company makes numerous jute items such as jute cords, bag burlap rolls, ribbon burlap bags, bags of drawstrings, Christmas bags, table tops, table runners, placemat food bags, etc. A wide variety of colors that have been developed in jute goods add glamour and affectation. We hope you will not ignore purchasing certain things in your home and garden that have an artistic effect. We also supplied new products to</p>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <div class="product_category_image">
-                    <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_img2.jpg')}}">
-                    <div class="category_image_title">
-                        <h5>Date laf Basket</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="product_category_image">
-                    <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_img3.jpg')}}">
-                    <div class="category_image_title">
-                        <h5>Hessian Cloth</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="product_category_image">
-                    <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_img4.jpg')}}">
-                    <div class="category_image_title">
-                        <h5>Hyacin basket</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="product_category_image">
-                    <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_img_5.jpg')}}">
-                    <div class="category_image_title">
-                        <h5>jute bag</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="product_category_image">
-                    <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_img-6.jpg')}}">
-                    <div class="category_image_title">
-                        <h5>jute basket</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="product_category_image">
-                    <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_image_7.jpg')}}">
-                    <div class="category_image_title">
-                        <h5>jute Cadies</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="product_category_image">
-                    <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_img-8.jpg')}}">
-                    <div class="category_image_title">
-                        <h5>jute Rope</h5>
-                    </div>
-                </div>
-            </div>
-          </div>
         </div>
     </div>
 </section>
@@ -311,68 +258,5 @@
 
 
 @endsection
-@push('scripts')
-<Script>
-    function addProductToWishlist(id, name, quantity, price) {
-        $.ajax({
-            type: 'POST',
-            url: "{{ route('wishlist.store') }}",
-            data: {
-                "_token": "{{ csrf_token() }}",
-                id: id,
-                name: name,
-                quantity: quantity,
-                price: price
-            },
-            success: function (data) {
-                if (data.status == 200) {
-                    getCartWishlistCount();
-                    // $.notify({
-                    //     icon:"fa fa-check",
-                    //     title:"Success!",
-                    //     message:"Item successfully addes to your wishlist!"
-                    // })
-                }
-            }
-        })
-    }
-
-    function addToCart(id, quantity) {
-        $.ajax({
-            type: 'POST',
-            url: "{{ route('cart.store') }}",
-            data: {
-                "_token": "{{ csrf_token() }}",
-                id: id,
-                quantity: quantity,
-            },
-            success: function (data) {
-                if (data.status == 200) {
-                    getCartWishlistCount();
-                    // $.notify({
-                    //     icon:"fa fa-check",
-                    //     title:"Success!",
-                    //     message:"Item successfully addes to your wishlist!"
-                    // })
-                }
-            }
-        })
-    }
-
-    function getCartWishlistCount() {
-        $.ajax({
-            type: "GET",
-            url: "{{ route('cart.wishlist.count') }}",
-            success: function (data) {
-                if (data.status == 200) {
-                    $("#cart_count").html(data.cartCount);
-                    $("#wishlist_count").html(data.wishlistCount);
-                }
-            }
-        })
-    }
-
-</Script>
-@endpush
 
 @include('client.layouts.footer')

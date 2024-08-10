@@ -150,7 +150,7 @@
                                 <a href="<?php echo e(route('categorypage')); ?>">All Category</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">About</a>
+                                <a href="<?php echo e(route('about_us')); ?>">About</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">Sister Concern</a>
@@ -229,7 +229,7 @@
                                 <a href="#">All Category</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">About</a>
+                                <a href="<?php echo e(route('about_us')); ?>">About</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">Sister Concern</a>

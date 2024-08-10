@@ -102,7 +102,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::5U7U2b8jRfla4C3W',
+            '_route' => 'generated::wppEPIe1Vp0J5443',
           ),
           1 => NULL,
           2 => 
@@ -765,6 +765,26 @@ app('router')->setCompiledRoutes(
           0 => 
           array (
             '_route' => 'categorypage',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/about-us' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'about_us',
           ),
           1 => NULL,
           2 => 
@@ -2997,7 +3017,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::5U7U2b8jRfla4C3W' => 
+    'generated::wppEPIe1Vp0J5443' => 
     array (
       'methods' => 
       array (
@@ -3014,13 +3034,13 @@ app('router')->setCompiledRoutes(
         ),
         'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:77:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
-}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"0000000000000a1d0000000000000000";}}',
+}";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005480000000000000000";}}',
         'namespace' => NULL,
         'prefix' => 'api',
         'where' => 
         array (
         ),
-        'as' => 'generated::5U7U2b8jRfla4C3W',
+        'as' => 'generated::wppEPIe1Vp0J5443',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4341,6 +4361,43 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'categorypage',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'about_us' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'about-us',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\client\\HomeController@about_us',
+        'controller' => 'App\\Http\\Controllers\\client\\HomeController@about_us',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'about_us',
       ),
       'fallback' => false,
       'defaults' => 

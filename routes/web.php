@@ -73,6 +73,7 @@ Route::get('/store-locator',[HomeController::class,'storeLocatorPage'])->name('s
 Route::get('/terms-and-condition',[HomeController::class,'termsConditionPage'])->name('termsConditionPage');
 Route::get('/privacy-policy',[HomeController::class,'privacyPolicyPage'])->name('privacyPolicyPage');
 Route::get('/category-page',[HomeController::class,'category_page'])->name('categorypage');
+Route::get('/about-us',[HomeController::class,'about_us'])->name('about_us');
 
 // Route::get('/logout', function () {
 //     auth()->logout();
@@ -90,14 +91,10 @@ Route::prefix('/')->group(function(){
     Route::group(['middleware'=>['user']],function(){
 
         Route::get('logout',[AdminController::class,'logout'])->name('admin.logout');
-        //Route::get('logout', [AdminController::class, 'logout'])->name('admin.logout');
-        //Route::post('register', [AdminController::class, 'store'])->name('customer.register');
         Route::get('dashboard', [AdminController::class, 'dashboard'])->name('admin.dashboard');
-
         Route::resource('category', CategoryController::class);
         Route::get('append-categories-level',[CategoryController::class,'appendCategoryLevel'])->name('appendCategory');
         Route::post('update-category-status',[CategoryController::class,'updateCategoryStatus'])->name('updateCategoryStatus');
-
         Route::resource('product', ProductController::class);
         Route::post('update-product-status',[ProductController::class,'updateProductStatus'])->name('updateProductStatus');
         Route::get('multiimage-delete/{id}',[ProductController::class,'multiImageDelete'])->name('ImageDelete');
@@ -126,11 +123,5 @@ Route::prefix('/')->group(function(){
     });
 
 });
-
-// Route::middleware('auth')->group(function () {
-//     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-//     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-//     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-// });
 
 // require __DIR__ . '/auth.php';

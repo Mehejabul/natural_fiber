@@ -197,7 +197,7 @@ categories_menu_toggle > ul > li ul.categories_mega_menu > li {
     padding: 55px 0 56px;
     border-top: 1px solid #73b531;
     border-bottom: 1px solid #73b531;
-    background-color: #0d7abd !important;
+    background-color: #008000 !important;
 }
 
 .footer_bottom {
@@ -1058,6 +1058,51 @@ border: none;
 }
 
 /* product category page css end */
+
+
+/* about-page css start */
+.about_page_title{
+
+}
+
+.about_page_title h2{
+    position: relative;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.about_page_title h2::after{
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 3px;
+    width: 150px;
+    background-color: #008000;
+    margin-bottom: 20px;
+}
+
+.about_page_pera strong{
+    color: #b1b6b3;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.about_page_pera p{
+    font-size: 16px;
+    color: #A8A49F;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 15px;
+}
+
+.about_page_section{
+    padding: 50px 0px;
+}
+
+/* about-page css end */
 
 
 /* golden-jute css end */

@@ -214,6 +214,10 @@ class HomeController extends Controller
         return view('client.category');
     }
 
+    public function about_us(){
+        return view('client.about_us');
+    }
+
 
     /**
      * Show the form for creating a new resource.
