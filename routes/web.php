@@ -72,6 +72,7 @@ Route::get('/size-guide',[HomeController::class,'sizeGuidePage'])->name('sizeGui
 Route::get('/store-locator',[HomeController::class,'storeLocatorPage'])->name('storeLocatorPage');
 Route::get('/terms-and-condition',[HomeController::class,'termsConditionPage'])->name('termsConditionPage');
 Route::get('/privacy-policy',[HomeController::class,'privacyPolicyPage'])->name('privacyPolicyPage');
+Route::get('/category-page',[HomeController::class,'category_page'])->name('categorypage');
 
 // Route::get('/logout', function () {
 //     auth()->logout();

@@ -448,7 +448,7 @@
         // autoplay: true,
         loop: true,
         nav: true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 8000,
         items: 4,
         dots: false,

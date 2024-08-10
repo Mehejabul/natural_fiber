@@ -74,9 +74,10 @@
                         <div class="col-lg-12 col-md-7">
                             <div class="header_top_settings">
                                 <ul>
-                                    <li><a href="#">Store Locations</a></li>
+                                    
                                     <li>Hotline: <a href="tel:{{ $company->phone }}">{{ $company->phone }} </a></li>
-                                    <li>Quality Guarantee Of Products</li>
+                                    <li><a href="#">GOLDEN JUTE</a></li>
+                                    <li>Email:info@goldenjutebd.com</li>
                                 </ul>
                             </div>
                         </div>
@@ -89,9 +90,7 @@
                     <div class="row align-items-center">
                         <div class="column1 col-lg-3 col-md-3 col-4">
                             <div class="logo">
-                            <a href="{{ route('client.home') }}"><img src="@if ($company->logo)
-                                    {{asset('images/company/'.$company->logo)}}
-                                @endif"alt="logo"></a>
+                            <a href="{{ route('client.home') }}"><img src="{{asset('images/golden-jute/logo/logo.jpg')}}"alt="logo"></a>
                             </div>
                         </div>
                         <div class="column2 col-lg-6 col-md-12">
@@ -137,26 +136,39 @@
                     <div class="row align-items-center">
                         <div class="col-lg-2 col-md-6">
                         <div class="logo">
-                            <a href="{{ route('client.home') }}"><img src="@if ($company->logo)
-                                    {{asset('images/company/'.$company->logo)}}
-                                @endif"alt="logo"></a>
+                        <a href="{{ route('client.home') }}"><img src="{{asset('images/golden-jute/logo/logo.jpg')}}"alt="logo"></a>
                         </div>
                         </div>
-                        <div class="col-lg-3 col-md-12">
+                        <div class="col-lg-7 col-md-12">
                             <div class="main_menu menu_position text-center">
                                 <nav>
                                     <ul>
                                     <li class="menu-item-has-children">
-                                <a href="{{ route('client.home') }}">Home</a>
+                                <a href="#">Home</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="{{ url('shop') }}">Shop</a>
+                                <a href="#">All Category</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Sister Concern</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Clients</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Gallery</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Contact</a>
                             </li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-lg-4">
+                        <!-- <div class="col-lg-2">
                         <div class="search_container">
                                 <form action="{{ route('searchPage') }}" method="get">
                                     <div class="search_box">
@@ -165,7 +177,7 @@
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="col-lg-3">
                             <div class="header_configure_area">
                                 <div class="header_login">
@@ -192,7 +204,6 @@
                     </div>
                 </div>
                 <!--header middel end-->
-                <!--header middel end-->
                 <!--header bottom satrt-->
                 <div class="header_bottom">
                     <div class="row align-items-center">
@@ -215,7 +226,22 @@
                                 <a href="{{ route('client.home') }}">Home</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="{{ url('shop') }}">Shop</a>
+                                <a href="#">All Category</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Sister Concern</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Clients</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Gallery</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">Contact</a>
                             </li>
                                     </ul>
                                 </nav>
