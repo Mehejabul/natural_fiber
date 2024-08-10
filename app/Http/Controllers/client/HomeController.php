@@ -210,6 +210,11 @@ class HomeController extends Controller
     }
 
 
+    public function category_page(){
+        return view('client.category');
+    }
+
+
     /**
      * Show the form for creating a new resource.
      */

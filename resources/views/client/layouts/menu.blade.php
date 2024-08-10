@@ -144,10 +144,10 @@
                                 <nav>
                                     <ul>
                                     <li class="menu-item-has-children">
-                                <a href="#">Home</a>
+                                <a href="{{ route('client.home') }}">Home</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">All Category</a>
+                                <a href="{{ route('categorypage') }}">All Category</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="#">About</a>
