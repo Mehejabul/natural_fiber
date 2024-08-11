@@ -199,8 +199,13 @@
       'file' => 
       array (
         'driver' => 'file',
+<<<<<<< HEAD
         'path' => 'G:\\natural_fiber\\storage\\framework/cache/data',
         'lock_path' => 'G:\\natural_fiber\\storage\\framework/cache/data',
+=======
+        'path' => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\storage\\framework/cache/data',
+        'lock_path' => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\storage\\framework/cache/data',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
       ),
       'memcached' => 
       array (
@@ -389,13 +394,21 @@
       'local' => 
       array (
         'driver' => 'local',
+<<<<<<< HEAD
         'root' => 'G:\\natural_fiber\\storage\\app',
+=======
+        'root' => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\storage\\app',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
         'throw' => false,
       ),
       'public' => 
       array (
         'driver' => 'local',
+<<<<<<< HEAD
         'root' => 'G:\\natural_fiber\\storage\\app/public',
+=======
+        'root' => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\storage\\app/public',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
         'url' => 'https://lifestyle.sohojsomadhan.net//storage',
         'visibility' => 'public',
         'throw' => false,
@@ -415,7 +428,11 @@
     ),
     'links' => 
     array (
+<<<<<<< HEAD
       'G:\\natural_fiber\\public\\storage' => 'G:\\natural_fiber\\storage\\app/public',
+=======
+      'C:\\Users\\Asus\\Desktop\\natural_fiber\\public\\storage' => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\storage\\app/public',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
     ),
   ),
   'hashing' => 
@@ -456,14 +473,22 @@
       'single' => 
       array (
         'driver' => 'single',
+<<<<<<< HEAD
         'path' => 'G:\\natural_fiber\\storage\\logs/laravel.log',
+=======
+        'path' => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\storage\\logs/laravel.log',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
         'level' => 'debug',
         'replace_placeholders' => true,
       ),
       'daily' => 
       array (
         'driver' => 'daily',
+<<<<<<< HEAD
         'path' => 'G:\\natural_fiber\\storage\\logs/laravel.log',
+=======
+        'path' => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\storage\\logs/laravel.log',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
         'level' => 'debug',
         'days' => 14,
         'replace_placeholders' => true,
@@ -528,7 +553,11 @@
       ),
       'emergency' => 
       array (
+<<<<<<< HEAD
         'path' => 'G:\\natural_fiber\\storage\\logs/laravel.log',
+=======
+        'path' => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\storage\\logs/laravel.log',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
       ),
     ),
   ),
@@ -595,7 +624,11 @@
       'theme' => 'default',
       'paths' => 
       array (
+<<<<<<< HEAD
         0 => 'G:\\natural_fiber\\resources\\views/vendor/mail',
+=======
+        0 => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\resources\\views/vendor/mail',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
       ),
     ),
   ),
@@ -708,7 +741,11 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
+<<<<<<< HEAD
     'files' => 'G:\\natural_fiber\\storage\\framework/sessions',
+=======
+    'files' => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\storage\\framework/sessions',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -728,9 +765,15 @@
   array (
     'paths' => 
     array (
+<<<<<<< HEAD
       0 => 'G:\\natural_fiber\\resources\\views',
     ),
     'compiled' => 'G:\\natural_fiber\\storage\\framework\\views',
+=======
+      0 => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\resources\\views',
+    ),
+    'compiled' => 'C:\\Users\\Asus\\Desktop\\natural_fiber\\storage\\framework\\views',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
   ),
   'image' => 
   array (
@@ -820,7 +863,11 @@
     array (
     ),
     'enable_runnable_solutions' => NULL,
+<<<<<<< HEAD
     'remote_sites_path' => 'G:\\natural_fiber',
+=======
+    'remote_sites_path' => 'C:\\Users\\Asus\\Desktop\\natural_fiber',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
     'local_sites_path' => '',
     'housekeeping_endpoint_prefix' => '_ignition',
     'settings_file_path' => '',

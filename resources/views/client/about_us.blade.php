@@ -130,7 +130,7 @@
                                         <a href="{{ route('about_us') }}">About</a>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">Sister Concern</a>
+                                        <a href="{{route('sister_concern')}}">Sister Concern</a>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Clients</a>
@@ -208,7 +208,7 @@
                                         <a href="{{ route('about_us') }}">About</a>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">Sister Concern</a>
+                                        <a href="{{route('sister_concern')}}">Sister Concern</a>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Clients</a>
@@ -253,10 +253,5 @@
         </div>
     </div>
 </section>
-
-@section('content')
-
-
-@endsection
 
 @include('client.layouts.footer')

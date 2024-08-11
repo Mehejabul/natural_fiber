@@ -75,6 +75,9 @@ Route::get('/terms-and-condition',[HomeController::class,'termsConditionPage'])-
 Route::get('/privacy-policy',[HomeController::class,'privacyPolicyPage'])->name('privacyPolicyPage');
 Route::get('/category-page',[HomeController::class,'category_page'])->name('categorypage');
 Route::get('/about-us',[HomeController::class,'about_us'])->name('about_us');
+Route::get('/sister-concern',[HomeController::class,'sister_concern'])->name('sister_concern');
+Route::get('/sister-concern-single',[HomeController::class,'sister_concern_single'])->name('sister_concern_single');
+Route::get('/gallery',[HomeController::class,'gallery'])->name('gallery');
 
 // Route::get('/logout', function () {
 //     auth()->logout();

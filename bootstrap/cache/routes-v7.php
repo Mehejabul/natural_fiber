@@ -102,7 +102,11 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
+<<<<<<< HEAD
             '_route' => 'generated::9kp687awccaIl1E4',
+=======
+            '_route' => 'generated::bhX7kZc8fKdLIFAl',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
           ),
           1 => NULL,
           2 => 
@@ -805,6 +809,66 @@ app('router')->setCompiledRoutes(
           0 => 
           array (
             '_route' => 'about_us',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/sister-concern' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'sister_concern',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/sister-concern-single' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'sister_concern_single',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/gallery' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'gallery',
           ),
           1 => NULL,
           2 => 
@@ -3037,7 +3101,11 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+<<<<<<< HEAD
     'generated::9kp687awccaIl1E4' => 
+=======
+    'generated::bhX7kZc8fKdLIFAl' => 
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
     array (
       'methods' => 
       array (
@@ -3060,7 +3128,11 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
+<<<<<<< HEAD
         'as' => 'generated::9kp687awccaIl1E4',
+=======
+        'as' => 'generated::bhX7kZc8fKdLIFAl',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
       ),
       'fallback' => false,
       'defaults' => 
@@ -4455,6 +4527,117 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'about_us',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'sister_concern' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'sister-concern',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\client\\HomeController@sister_concern',
+        'controller' => 'App\\Http\\Controllers\\client\\HomeController@sister_concern',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'sister_concern',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'sister_concern_single' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'sister-concern-single',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\client\\HomeController@sister_concern_single',
+        'controller' => 'App\\Http\\Controllers\\client\\HomeController@sister_concern_single',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'sister_concern_single',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'gallery' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'gallery',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\client\\HomeController@gallery',
+        'controller' => 'App\\Http\\Controllers\\client\\HomeController@gallery',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'gallery',
       ),
       'fallback' => false,
       'defaults' => 
