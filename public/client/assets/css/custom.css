@@ -1168,8 +1168,17 @@ border: none;
     margin: 20px 10px;
 }
 
-
 /* sister concern css end */
+
+/* short documentary css start */
+
+
+
+.youtube_frame iframe{
+    border: 20px solid black;
+}
+
+/* Short documentary css end */
 
 
 /* golden-jute css end */

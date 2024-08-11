@@ -1,3 +1,4 @@
+
 <?php $__env->startSection('homepage','categories_seven'); ?>
 <?php $__env->startSection('content'); ?>
 <!--slider area start-->
@@ -335,7 +336,6 @@
         </div>
 <!--blog area end-->
 
-
 <!--our certificate  area start-->
 <div class="our_certificate">
             <div class="container">
@@ -349,7 +349,7 @@
                                 <figure>
                                     <div class="client_image">
                                         <a href="#">
-                                            <img src="<?php echo e(asset('images/golden-jute/client/certificate1.jpg')); ?>" alt="client_one.png">
+                                            <img src="<?php echo e(asset('images/golden-jute/certificate/certificate1.jpg')); ?>" alt="client_one.png">
                                         </a>
                                     </div>
                                 </figure>
@@ -358,7 +358,7 @@
                                 <figure>
                                     <div class="client_image">
                                         <a href="#">
-                                            <img src="<?php echo e(asset('images/golden-jute/client/certificate 2.jpg')); ?>" alt="clients_two.png">
+                                            <img src="<?php echo e(asset('images/golden-jute/certificate/certificate 2.jpg')); ?>" alt="clients_two.png">
                                         </a>
                                     </div>
                                 </figure>
@@ -367,7 +367,7 @@
                                 <figure>
                                     <div class="client_image">
                                         <a href="#">
-                                            <img src="<?php echo e(asset('images/golden-jute/client/certificate3.jpg')); ?>" alt="client_three.png">
+                                            <img src="<?php echo e(asset('images/golden-jute/certificate/certificate3.jpg')); ?>" alt="client_three.png">
                                         </a>
                                     </div>
                                 </figure>
@@ -376,8 +376,53 @@
                                 <figure>
                                     <div class="client_image">
                                         <a href="#">
-                                            <img src="<?php echo e(asset('images/golden-jute/client/certificate4.jpg')); ?>" alt="client_one.png">
+                                            <img src="<?php echo e(asset('images/golden-jute/certificate/certificate4.jpg')); ?>" alt="client_one.png">
                                         </a>
+                                    </div>
+                                </figure>
+                            </article> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+<!--our certificate area end-->
+
+
+<!--our certificate  area start-->
+<div class="our_certificate">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="our_partners_Title">
+                            <h2>Short Documentary</h2>
+                        </div>
+                        <div class="blog_container blog_column4 owl-carousel">
+                        <article class="single_blog">
+                                <figure>
+                                    <div class="youtube_frame">
+                                       <iframe class="youtube_video" src="https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS"></iframe>
+                                    </div>
+                                </figure>
+                            </article> 
+                            <article class="single_blog">
+                                <figure>
+                                    <div class="youtube_frame">
+                                       <iframe class="youtube_video" src="https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS"></iframe>
+                                    </div>
+                                </figure>
+                            </article> 
+                            <article class="single_blog">
+                                <figure>
+                                    <div class="youtube_frame">
+                                       <iframe class="youtube_video" src="https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS"></iframe>
+                                    </div>
+                                </figure>
+                            </article> 
+                            <article class="single_blog">
+                                <figure>
+                                    <div class="youtube_frame">
+                                       <iframe class="youtube_video" src="https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS"></iframe>
                                     </div>
                                 </figure>
                             </article> 
