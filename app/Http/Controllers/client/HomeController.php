@@ -218,6 +218,17 @@ class HomeController extends Controller
         return view('client.about_us');
     }
 
+    public function sister_concern(){
+        return view('client.sister_concern');
+    }
+    
+    public function sister_concern_single(){
+        return view('client.sister_concern_single');
+    }
+
+    public function gallery(){
+        return view('client.gallery');
+    }
 
     /**
      * Show the form for creating a new resource.
