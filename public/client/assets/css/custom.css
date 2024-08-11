@@ -1104,5 +1104,72 @@ border: none;
 
 /* about-page css end */
 
+/* sister concern css start */
+.sister_concern_banner_img{
+    margin: 20px 0px 50px 0px;
+}
+
+.concern_title{
+    text-align: center;
+}
+
+.sister_concern_section{
+    background-color: #efefef;
+}
+
+.sister_concern_produt_section{
+    margin: 30px 0px;
+}
+
+.product_des_sing p{
+    text-align: justify;
+    font-size: 12pt;
+    margin: 20px;
+}
+
+.gallery_item{
+    position: relative;
+}
+
+.gal_overlay{
+    position: absolute;
+    bottom: 0;
+    background-color: #000000;
+    opacity: 0.5;
+    width: 100%;
+    padding: 20px 15px;
+    visibility: hidden;
+    transition: all .3s linear;
+    
+}
+
+.gallery_item:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.gallery_item:hover .gal_overlay{
+    visibility: visible;
+}
+
+.gal_overlay h5{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.gal_overlay p{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.gal_content{
+    margin: 20px 10px;
+}
+
+
+/* sister concern css end */
+
 
 /* golden-jute css end */
