@@ -8114,8 +8114,21 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .contact_message ul li:last-child {
   padding-bottom: 0;
 }
+
 .contact_message ul li i {
   margin-right: 10px;
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  float: left;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  padding: 6px 0;
+  background-color:#38b04a;
+}
+.fa-phone::before{
+  content: "\f095";
 }
 .contact_message ul li a:hover {
   color: #c40316;
@@ -8144,13 +8157,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   color: #222222;
 }
 .contact_message button {
+  width: 100%;
   font-weight: 400;
   height: 42px;
   line-height: 42px;
   padding: 0 30px;
   text-transform: capitalize;
   border: none;
-  background: #222222;
+  background: #38b04a;
   color: #ffffff;
   cursor: pointer;
   -webkit-transition: 0.3s;
@@ -8158,7 +8172,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   border-radius: 4px;
 }
 .contact_message button:hover {
-  background: #c40316;
+  background: #222222;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact_message.content {

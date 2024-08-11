@@ -102,7 +102,11 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
+<<<<<<< HEAD
+            '_route' => 'generated::9kp687awccaIl1E4',
+=======
             '_route' => 'generated::bhX7kZc8fKdLIFAl',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
           ),
           1 => NULL,
           2 => 
@@ -123,6 +127,26 @@ app('router')->setCompiledRoutes(
           0 => 
           array (
             '_route' => 'client.home',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/contact' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'client.contact',
           ),
           1 => NULL,
           2 => 
@@ -3077,7 +3101,11 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+<<<<<<< HEAD
+    'generated::9kp687awccaIl1E4' => 
+=======
     'generated::bhX7kZc8fKdLIFAl' => 
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
     array (
       'methods' => 
       array (
@@ -3092,7 +3120,7 @@ app('router')->setCompiledRoutes(
           0 => 'api',
           1 => 'auth:sanctum',
         ),
-        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:77:"function (\\Illuminate\\Http\\Request $request) {
+        'uses' => 'O:55:"Laravel\\SerializableClosure\\UnsignedSerializableClosure":1:{s:12:"serializable";O:46:"Laravel\\SerializableClosure\\Serializers\\Native":5:{s:3:"use";a:0:{}s:8:"function";s:79:"function (\\Illuminate\\Http\\Request $request) {
     return $request->user();
 }";s:5:"scope";s:37:"Illuminate\\Routing\\RouteFileRegistrar";s:4:"this";N;s:4:"self";s:32:"00000000000005480000000000000000";}}',
         'namespace' => NULL,
@@ -3100,7 +3128,11 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
+<<<<<<< HEAD
+        'as' => 'generated::9kp687awccaIl1E4',
+=======
         'as' => 'generated::bhX7kZc8fKdLIFAl',
+>>>>>>> 7a1e9c375f79449cf199d8b495555ff5a68a06c6
       ),
       'fallback' => false,
       'defaults' => 
@@ -3138,6 +3170,43 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'client.home',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'client.contact' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'contact',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\client\\HomeController@contact',
+        'controller' => 'App\\Http\\Controllers\\client\\HomeController@contact',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'client.contact',
       ),
       'fallback' => false,
       'defaults' => 

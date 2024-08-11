@@ -33,6 +33,7 @@ use App\Http\Controllers\server\ViewSectionController;
 
 
 Route::get('/', [HomeController::class, 'index'])->name('client.home');
+Route::get('/contact',[HomeController::class,'contact'])->name('client.contact');
 Route::get('/shop/{slug?}/{id?}', [HomeController::class, 'shop'])->name('client.shop');
 Route::get('/shop-sort', [ShopController::class, 'index'])->name('client.shopsort');
 Route::get('/product-details/{id?}', [HomeController::class, 'product_details'])->name('client.product_details');
