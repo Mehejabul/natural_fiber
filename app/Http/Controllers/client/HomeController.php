@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\client;
 
 use App\Http\Controllers\Controller;
-
+use App\Models\About;
 // use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Models\Product;
@@ -13,6 +13,7 @@ use App\Models\Banner;
 use App\Models\ProductType;
 use App\Models\ViewSection;
 use App\Models\Ad;
+use App\Models\Gallery;
 use Cart;
 use Auth;
 
@@ -25,6 +26,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $abouts = About::all();
         $categories = Category::where('status', 'Active')->get()->all();
         $sliders = Banner::Where('status', 'active')->get()->all();
         $ads = Ad::where('status', 'active')->get()->all();
@@ -50,7 +52,7 @@ class HomeController extends Controller
         //dd($view_sections);
         // $featureProducts = Product::where('view_section', 'Feature_Products')->where('status', 'Active')->orderBy('created_at', 'desc')->take(10)->get();
 
-        return view('client.index')->with(compact('new_arrivals_men', 'new_arrivals_women', 'new_arrivals_kids', 'categories', 'sliders', 'ads', 'product_types', 'new_arrivals_electronics', 'new_arrivals_gifts', 'view_sections'));
+        return view('client.index')->with(compact('abouts', 'new_arrivals_men', 'new_arrivals_women', 'new_arrivals_kids', 'categories', 'sliders', 'ads', 'product_types', 'new_arrivals_electronics', 'new_arrivals_gifts', 'view_sections'));
     }
 
     public function searchPage(Request $request)
@@ -209,19 +211,24 @@ class HomeController extends Controller
 
     public function about_us()
     {
-        return view('client.about_us');
+        $abouts = About::get()->all();
+        return view('client.about_us',compact('abouts'));
     }
 
-    public function sister_concern(){
+    public function sister_concern()
+    {
         return view('client.sister_concern');
     }
-    
-    public function sister_concern_single(){
+
+    public function sister_concern_single()
+    {
         return view('client.sister_concern_single');
     }
 
-    public function gallery(){
-        return view('client.gallery');
+    public function gallery()
+    {
+        $galleries = Gallery::get()->all();
+        return view('client.gallery', compact('galleries'));
     }
 
     /**

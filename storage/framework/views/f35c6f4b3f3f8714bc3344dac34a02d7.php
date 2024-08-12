@@ -159,7 +159,7 @@
                                 <a href="#">Clients</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">Gallery</a>
+                                <a href="<?php echo e(route('gallery')); ?>">Gallery</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="<?php echo e(route('client.contact')); ?>">Contact</a>
@@ -238,7 +238,7 @@
                                 <a href="#">Clients</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">Gallery</a>
+                                <a href="<?php echo e(route('gallery')); ?>">Gallery</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="<?php echo e(route('client.contact')); ?>">Contact</a>

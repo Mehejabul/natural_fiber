@@ -159,7 +159,7 @@
                                 <a href="#">Clients</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="{{ route('gallery') }}">Gallery</a>
+                                <a href="{{route('gallery')}}">Gallery</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="{{route('client.contact')}}">Contact</a>
@@ -238,7 +238,7 @@
                                 <a href="#">Clients</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="{{ route('gallery') }}">Gallery</a>
+                                <a href="{{route('gallery')}}">Gallery</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="{{route('client.contact')}}">Contact</a>

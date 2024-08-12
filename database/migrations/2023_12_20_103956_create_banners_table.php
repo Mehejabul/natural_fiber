@@ -14,15 +14,15 @@ return new class extends Migration
         Schema::create('banners', function (Blueprint $table) {
             $table->id();
             $table->string('image');
-            // $table->string('first_text')->nullable();
-            // $table->string('second_text')->nullable();
             $table->enum('status',['Active','Inactive'])->default('Active');
             $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
+    /*
+      Reverse the migrations.
+       $table->string('first_text')->nullable();
+     $table->string('second_text')->nullable();
      */
     public function down(): void
     {

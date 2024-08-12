@@ -14,8 +14,6 @@ return new class extends Migration
         Schema::create('ads', function (Blueprint $table) {
             $table->id();
             $table->string('image');
-            // $table->string('first_text')->nullable();
-            // $table->string('second_text')->nullable();
             $table->enum('status',['Active','Inactive'])->default('Active');
             $table->timestamps();
         });
