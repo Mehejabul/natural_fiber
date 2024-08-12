@@ -1,7 +1,7 @@
 
 
 <?php $__env->startSection('content'); ?>
-
+    
     <div class="container">
             <!--contact area start-->
             <div class="contact_area">

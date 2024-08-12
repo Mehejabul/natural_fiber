@@ -68,10 +68,11 @@
     <div class="container">
         <div class="about_part">
             <div class="row">
+                <?php $__currentLoopData = $abouts; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $about): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                 <div class="col-lg-5">
                     <div class="about_left">
                         <div class="about_left_img">
-                            <img src="<?php echo e(asset('images/golden-jute/about/about.png')); ?>" class="img-fluid">
+                            <img src="<?php echo e(asset('images/about/' . $about -> image)); ?>" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -80,13 +81,15 @@
                         <div class="about_us_title">
                             <h2>About Us</h2>
                         </div>
+                        
                         <div class="about_pera">
-                            <p><strong>Golden Jute</strong> Product is a pioneer jute basket manufacturer and exporter of jute storage basket, Laundry basket, Fruit basket, Nursery pot, Jewelry box which have an ecologically sustainable future. Golden Jute Product also produce different type of Bags, Rugs, Floor Mat, Table Mat and Handicrafts of different sizes and different color according to customer needs.</p>
+                            <p><?php echo $about -> short_description; ?></p>
+                            
                         </div>
-                        <div class="about_pera">
-                            <p><strong>Golden Jute</strong> Product has its own facility of production. We have about 1000 highly experienced workers who are responsible for our production. Most of these women have minimal education but they are skilled and well trained. They manage to earn a steady income for their families and themselves. These women play a very important role in poverty eradication and improving their overall level of living. Our production capacity 200,000 set of basket (S/3) per mon...</p>
-                        </div>
+                        
+                        
                     </div>
+                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </div>
             </div>
         </div>

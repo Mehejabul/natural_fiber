@@ -102,6 +102,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
+            '_route' => 'generated::LV5Lb3WO1XcJQIeV',
             '_route' => 'generated::9kp687awccaIl1E4',
             '_route' => 'generated::bhX7kZc8fKdLIFAl',
           ),
@@ -144,6 +145,26 @@ app('router')->setCompiledRoutes(
           0 => 
           array (
             '_route' => 'client.contact',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/galleries' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'gallery',
           ),
           1 => NULL,
           2 => 
@@ -846,26 +867,6 @@ app('router')->setCompiledRoutes(
           0 => 
           array (
             '_route' => 'sister_concern_single',
-          ),
-          1 => NULL,
-          2 => 
-          array (
-            'GET' => 0,
-            'HEAD' => 1,
-          ),
-          3 => NULL,
-          4 => false,
-          5 => false,
-          6 => NULL,
-        ),
-      ),
-      '/gallery' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            '_route' => 'gallery',
           ),
           1 => NULL,
           2 => 
@@ -1729,10 +1730,122 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/abouts' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'abouts.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'abouts.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/abouts/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'abouts.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/gallery' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'gallery.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'gallery.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/gallery/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'gallery.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
     ),
     2 => 
     array (
-      0 => '{^(?|/s(?|hop(?:/([^/]++)(?:/([^/]++))?)?(*:43)|tock(?|/([^/]++)(?|(*:69)|/edit(*:81)|(*:88))|\\-variant(?|/([^/]++)(*:117)|\\-update/([^/]++)(*:142))))|/product(?|\\-(?|details(?:/([^/]++))?(*:190)|variation/([^/]++)(?|(*:219)|/edit(*:232)|(*:240))|type/([^/]++)(?|(*:265)|/edit(*:278)|(*:286)))|/([^/]++)(?|(*:308)|/edit(*:321)|(*:329)))|/c(?|at(?|egory/([^/]++)(?|(*:366)|/edit(*:379)|(*:387))|alogue/([^/]++)(?|(*:414)|/edit(*:427)|(*:435)))|ustomer/([^/]++)(?|(*:464)|/edit(*:477)|(*:485))|ompany\\-details/([^/]++)(?|(*:521)|/edit(*:534)|(*:542)))|/multiimage\\-delete/([^/]++)(*:580)|/order\\-(?|list(?:/([^/]++))?(*:617)|i(?|temlist/([^/]++)(*:645)|nvoice/([^/]++)(*:668))|status\\-(?|edit/([^/]++)(*:701)|update/([^/]++)(*:724)))|/banner/([^/]++)(?|(*:753)|/edit(*:766)|(*:774))|/view\\-section/([^/]++)(?|(*:809)|/edit(*:822)|(*:830))|/ad/([^/]++)(?|(*:854)|/edit(*:867)|(*:875)))/?$}sDu',
+      0 => '{^(?|/s(?|hop(?:/([^/]++)(?:/([^/]++))?)?(*:43)|tock(?|/([^/]++)(?|(*:69)|/edit(*:81)|(*:88))|\\-variant(?|/([^/]++)(*:117)|\\-update/([^/]++)(*:142))))|/product(?|\\-(?|details(?:/([^/]++))?(*:190)|variation/([^/]++)(?|(*:219)|/edit(*:232)|(*:240))|type/([^/]++)(?|(*:265)|/edit(*:278)|(*:286)))|/([^/]++)(?|(*:308)|/edit(*:321)|(*:329)))|/c(?|at(?|egory/([^/]++)(?|(*:366)|/edit(*:379)|(*:387))|alogue/([^/]++)(?|(*:414)|/edit(*:427)|(*:435)))|ustomer/([^/]++)(?|(*:464)|/edit(*:477)|(*:485))|ompany\\-details/([^/]++)(?|(*:521)|/edit(*:534)|(*:542)))|/multiimage\\-delete/([^/]++)(*:580)|/order\\-(?|list(?:/([^/]++))?(*:617)|i(?|temlist/([^/]++)(*:645)|nvoice/([^/]++)(*:668))|status\\-(?|edit/([^/]++)(*:701)|update/([^/]++)(*:724)))|/banner/([^/]++)(?|(*:753)|/edit(*:766)|(*:774))|/view\\-section/([^/]++)(?|(*:809)|/edit(*:822)|(*:830))|/a(?|d/([^/]++)(?|(*:857)|/edit(*:870)|(*:878))|bouts/([^/]++)(?|(*:904)|/edit(*:917)|(*:925)))|/gallery/([^/]++)(?|(*:955)|/edit(*:968)|(*:976)))/?$}sDu',
     ),
     3 => 
     array (
@@ -2849,7 +2962,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      854 => 
+      857 => 
       array (
         0 => 
         array (
@@ -2872,7 +2985,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      867 => 
+      870 => 
       array (
         0 => 
         array (
@@ -2895,7 +3008,7 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
-      875 => 
+      878 => 
       array (
         0 => 
         array (
@@ -2926,6 +3039,182 @@ app('router')->setCompiledRoutes(
           1 => 
           array (
             0 => 'ad',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      904 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'abouts.show',
+          ),
+          1 => 
+          array (
+            0 => 'about',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      917 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'abouts.edit',
+          ),
+          1 => 
+          array (
+            0 => 'about',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      925 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'abouts.update',
+          ),
+          1 => 
+          array (
+            0 => 'about',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'abouts.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'about',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      955 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'gallery.show',
+          ),
+          1 => 
+          array (
+            0 => 'gallery',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      968 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'gallery.edit',
+          ),
+          1 => 
+          array (
+            0 => 'gallery',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      976 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'gallery.update',
+          ),
+          1 => 
+          array (
+            0 => 'gallery',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'gallery.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'gallery',
           ),
           2 => 
           array (
@@ -3098,6 +3387,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
+    'generated::LV5Lb3WO1XcJQIeV' => 
     'generated::9kp687awccaIl1E4',
     'generated::bhX7kZc8fKdLIFAl' =>
     array (
@@ -3122,6 +3412,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
+        'as' => 'generated::LV5Lb3WO1XcJQIeV',
         'as' => 'generated::9kp687awccaIl1E4',
         'as' => 'generated::bhX7kZc8fKdLIFAl',
       ),
@@ -3198,6 +3489,43 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'client.contact',
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'gallery' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'galleries',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+        ),
+        'uses' => 'App\\Http\\Controllers\\client\\HomeController@gallery',
+        'controller' => 'App\\Http\\Controllers\\client\\HomeController@gallery',
+        'namespace' => NULL,
+        'prefix' => '',
+        'where' => 
+        array (
+        ),
+        'as' => 'gallery',
       ),
       'fallback' => false,
       'defaults' => 
@@ -4592,43 +4920,6 @@ app('router')->setCompiledRoutes(
         array (
         ),
         'as' => 'sister_concern_single',
-      ),
-      'fallback' => false,
-      'defaults' => 
-      array (
-      ),
-      'wheres' => 
-      array (
-      ),
-      'bindingFields' => 
-      array (
-      ),
-      'lockSeconds' => NULL,
-      'waitSeconds' => NULL,
-      'withTrashed' => false,
-    ),
-    'gallery' => 
-    array (
-      'methods' => 
-      array (
-        0 => 'GET',
-        1 => 'HEAD',
-      ),
-      'uri' => 'gallery',
-      'action' => 
-      array (
-        'middleware' => 
-        array (
-          0 => 'web',
-        ),
-        'uses' => 'App\\Http\\Controllers\\client\\HomeController@gallery',
-        'controller' => 'App\\Http\\Controllers\\client\\HomeController@gallery',
-        'namespace' => NULL,
-        'prefix' => '',
-        'where' => 
-        array (
-        ),
-        'as' => 'gallery',
       ),
       'fallback' => false,
       'defaults' => 
@@ -8278,6 +8569,534 @@ app('router')->setCompiledRoutes(
         'as' => 'company-details.destroy',
         'uses' => 'App\\Http\\Controllers\\server\\CompanyDetailsController@destroy',
         'controller' => 'App\\Http\\Controllers\\server\\CompanyDetailsController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'abouts.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'abouts',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'abouts.index',
+        'uses' => 'App\\Http\\Controllers\\server\\AboutController@index',
+        'controller' => 'App\\Http\\Controllers\\server\\AboutController@index',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'abouts.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'abouts/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'abouts.create',
+        'uses' => 'App\\Http\\Controllers\\server\\AboutController@create',
+        'controller' => 'App\\Http\\Controllers\\server\\AboutController@create',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'abouts.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'abouts',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'abouts.store',
+        'uses' => 'App\\Http\\Controllers\\server\\AboutController@store',
+        'controller' => 'App\\Http\\Controllers\\server\\AboutController@store',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'abouts.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'abouts/{about}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'abouts.show',
+        'uses' => 'App\\Http\\Controllers\\server\\AboutController@show',
+        'controller' => 'App\\Http\\Controllers\\server\\AboutController@show',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'abouts.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'abouts/{about}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'abouts.edit',
+        'uses' => 'App\\Http\\Controllers\\server\\AboutController@edit',
+        'controller' => 'App\\Http\\Controllers\\server\\AboutController@edit',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'abouts.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'abouts/{about}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'abouts.update',
+        'uses' => 'App\\Http\\Controllers\\server\\AboutController@update',
+        'controller' => 'App\\Http\\Controllers\\server\\AboutController@update',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'abouts.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'abouts/{about}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'abouts.destroy',
+        'uses' => 'App\\Http\\Controllers\\server\\AboutController@destroy',
+        'controller' => 'App\\Http\\Controllers\\server\\AboutController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'gallery.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'gallery',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'gallery.index',
+        'uses' => 'App\\Http\\Controllers\\server\\GalleryController@index',
+        'controller' => 'App\\Http\\Controllers\\server\\GalleryController@index',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'gallery.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'gallery/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'gallery.create',
+        'uses' => 'App\\Http\\Controllers\\server\\GalleryController@create',
+        'controller' => 'App\\Http\\Controllers\\server\\GalleryController@create',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'gallery.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'gallery',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'gallery.store',
+        'uses' => 'App\\Http\\Controllers\\server\\GalleryController@store',
+        'controller' => 'App\\Http\\Controllers\\server\\GalleryController@store',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'gallery.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'gallery/{gallery}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'gallery.show',
+        'uses' => 'App\\Http\\Controllers\\server\\GalleryController@show',
+        'controller' => 'App\\Http\\Controllers\\server\\GalleryController@show',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'gallery.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'gallery/{gallery}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'gallery.edit',
+        'uses' => 'App\\Http\\Controllers\\server\\GalleryController@edit',
+        'controller' => 'App\\Http\\Controllers\\server\\GalleryController@edit',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'gallery.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'gallery/{gallery}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'gallery.update',
+        'uses' => 'App\\Http\\Controllers\\server\\GalleryController@update',
+        'controller' => 'App\\Http\\Controllers\\server\\GalleryController@update',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'gallery.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'gallery/{gallery}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'gallery.destroy',
+        'uses' => 'App\\Http\\Controllers\\server\\GalleryController@destroy',
+        'controller' => 'App\\Http\\Controllers\\server\\GalleryController@destroy',
         'namespace' => NULL,
         'prefix' => '/',
         'where' => 

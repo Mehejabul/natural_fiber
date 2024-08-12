@@ -241,78 +241,20 @@
         </div>
         <div class="gallery_wrap">
             <div class="row">
+                @foreach ($galleries as $gallery)
                 <div class="col-lg-4">
                     <div class="gal_content">
                         <div class="gallery_item">
-                            <img src="{{asset('images/golden-jute/gallery/gallery1.jpeg')}}" alt=""
+                            <img src="{{asset('images/gallery/' . $gallery -> image)}}" alt=""
                                 class="img-fluid w-100">
                             <div class="gal_overlay">
-                                <h5>Ambiente Fair-germany</h5>
-                                <p>Ambiente Fair-germany</p>
+                                <h5>{{$gallery -> title}}</h5>
+                                <p>{{$gallery -> name}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="gal_content">
-                        <div class="gallery_item">
-                            <img src="{{asset('images/golden-jute/gallery/gallery2.jpeg')}}" alt=""
-                                class="img-fluid w-100">
-                            <div class="gal_overlay">
-                                <h5>Ambiente Fair-germany</h5>
-                                <p>Ambiente Fair-germany</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="gal_content">
-                        <div class="gallery_item">
-                            <img src="{{asset('images/golden-jute/gallery/gallery3.jpeg')}}" alt=""
-                                class="img-fluid w-100">
-                            <div class="gal_overlay">
-                                <h5>Ambiente Fair-germany</h5>
-                                <p>Ambiente Fair-germany</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="gal_content">
-                        <div class="gallery_item">
-                            <img src="{{asset('images/golden-jute/gallery/gallery4.jpeg')}}" alt=""
-                                class="img-fluid w-100">
-                            <div class="gal_overlay">
-                                <h5>Ambiente Fair-germany</h5>
-                                <p>Ambiente Fair-germany</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="gal_content">
-                        <div class="gallery_item">
-                            <img src="{{asset('images/golden-jute/gallery/gallery5.jpg')}}" alt=""
-                                class="img-fluid w-100">
-                            <div class="gal_overlay">
-                                <h5>Ambiente Fair-germany</h5>
-                                <p>Ambiente Fair-germany</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="gal_content">
-                        <div class="gallery_item">
-                            <img src="{{asset('images/golden-jute/gallery/gallery6.jpg')}}" alt=""
-                                class="img-fluid w-100">
-                            <div class="gal_overlay">
-                                <h5>Ambiente Fair-germany</h5>
-                                <p>Ambiente Fair-germany</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </div>

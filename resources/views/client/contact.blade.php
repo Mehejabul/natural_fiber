@@ -1,7 +1,7 @@
 @extends('client.layouts.main')
 
 @section('content')
-
+    
     <div class="container">
             <!--contact area start-->
             <div class="contact_area">

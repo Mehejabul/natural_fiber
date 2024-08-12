@@ -143,7 +143,11 @@
 
                 <li class=" navigation-header"><span>Banner Section</span>
                 </li>
+                <li class=" nav-item"><a href="{{ route('abouts.index') }}"><i class="bx bxl-slack"></i><span class="menu-title">About</span></a>
+                </li>
                 <li class=" nav-item"><a href="{{ route('banner.index') }}"><i class="bx bxl-slack"></i><span class="menu-title">Slider</span></a>
+                </li>
+                <li class=" nav-item"><a href="{{ route('gallery.index') }}"><i class="bx bxl-slack"></i><span class="menu-title">Gallery</span></a>
                 </li>
                 <li class=" nav-item"><a href="{{ route('ad.index') }}"><i class="bx bxl-slack"></i><span class="menu-title">AD Zone</span></a>
                 </li>

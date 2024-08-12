@@ -9,6 +9,7 @@
             <section class="about_section mb-60">
                 <div class="row align-items-center">
                     <div class="col-12">
+                        {{-- @foreach ($abouts as $about) --}}
                         <figure>
                             <div class="about_thumb">
                                 <img src="{{asset('client/img/about/about1.jpg')}}" alt="">
@@ -22,6 +23,7 @@
                             </figcaption>
                         </figure>
                     </div>
+                    {{-- @endforeach --}}
                 </div>
             </section>
             <!--about section end-->
