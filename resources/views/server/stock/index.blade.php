@@ -101,7 +101,9 @@
                                                     $sum = 0
                                                 @endphp
                                                     <tr>
-                                                        <td class="text-primary">{{ $stock->product->title}}</td>
+                                                        <td class="text-primary">
+                                                            {{ $stock->product->title}}
+                                                        </td>
                                                         <td>{{ $stock->quantity }}</td>
                                                          <td><span class="text-danger">{{ $stock->product->alert_stock }}</span></td>
                                                       <!--<td>@if ($stock->product->productvariation)-->

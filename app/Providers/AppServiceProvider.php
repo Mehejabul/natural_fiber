@@ -32,7 +32,7 @@ class AppServiceProvider extends ServiceProvider
             /** @var \Illuminate\View\View $view */
             $view->with('currentViewName', $view->getName());
         });
-        $project_title = '| Abrar Mart ';
+        $project_title = '| Natural Fiber ';
         $project_copyright = 'Design and Development by Zariq Ltd';
         View::share('title', $project_title);
         View::share('copyright', $project_copyright);
