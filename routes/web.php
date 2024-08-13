@@ -19,6 +19,7 @@ use App\Http\Controllers\server\CatalogueController;
 use App\Http\Controllers\server\AdController;
 use App\Http\Controllers\server\ProductTypeController;
 use App\Http\Controllers\server\CompanyDetailsController;
+use App\Http\Controllers\server\DocumentoryController;
 use App\Http\Controllers\server\GalleryController;
 use App\Http\Controllers\server\ViewSectionController;
 /*
@@ -129,6 +130,7 @@ Route::prefix('/')->group(function () {
         // server page
         Route::resource('/abouts', AboutController::class);
         Route::resource('/gallery', GalleryController::class);
+        Route::resource('/documentory', DocumentoryController::class);
     });
 });
 
