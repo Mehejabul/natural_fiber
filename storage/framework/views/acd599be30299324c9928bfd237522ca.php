@@ -100,7 +100,10 @@
                                                     $sum = 0
                                                 ?>
                                                     <tr>
-                                                        <td class="text-primary"><?php echo e($stock->product->title); ?></td>
+                                                        <td class="text-primary">
+                                                            <?php echo e($stock->product->title); ?>
+
+                                                        </td>
                                                         <td><?php echo e($stock->quantity); ?></td>
                                                          <td><span class="text-danger"><?php echo e($stock->product->alert_stock); ?></span></td>
                                                       <!--<td><?php if($stock->product->productvariation): ?>-->
