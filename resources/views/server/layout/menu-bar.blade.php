@@ -153,8 +153,8 @@
                 </li>
                 <li class=" nav-item"><a href="{{ route('ad.index') }}"><i class="bx bxl-slack"></i><span class="menu-title">AD Zone</span></a>
                 </li>
-                <li class=" nav-item"><a href="{{ route('product-type.index') }}"><i class="bx bxl-slack"></i><span class="menu-title">Product Type</span></a>
-                </li>
+                {{-- <li class=" nav-item"><a href="{{ route('product-type.index') }}"><i class="bx bxl-slack"></i><span class="menu-title">Product Type</span></a>
+                </li> --}}
                 <li class=" nav-item"><a href="{{ route('company-details.index') }}"><i class="bx bx-store-alt">
                         </i><span class="menu-title">Company Details</span></a>
                 </li>

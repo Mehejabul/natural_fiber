@@ -1,6 +1,7 @@
 @include('client.layouts.header')
 <!--Offcanvas menu area start-->
-<div class="off_canvars_overlay"></div>
+@include('client.layouts.secondary')
+{{-- <div class="off_canvars_overlay"></div>
 <div class="Offcanvas_menu">
     <div class="container">
         <div class="row">
@@ -39,10 +40,10 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!--Offcanvas menu area end-->
 <!-- secondary header start -->
-<header>
+{{-- <header>
     <div class="main_header header_four">
         <div class="container">
             <!--header top start-->
@@ -231,22 +232,31 @@
             <!--header bottom end-->
         </div>
     </div>
-</header>
+</header> --}}
 <!-- secondary header end -->
 
 <section class="product_catgory_section">
     <div class="container">
         <div class="product_category_wrap">
           <div class="row">
+            @if ($categories)
+            @foreach ($categories as $category)
             <div class="col-lg-3">
                 <div class="product_category_image">
-                    <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_image.jpg')}}">
+                    <a class="primary_img" href="{{ url('shop/category/'.$category->id) }}"><img
+                    src="{{asset('images/category/'.$category->image)}}" alt=""></a>
+                    {{-- <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_image.jpg')}}"> --}}
                     <div class="category_image_title">
-                        <h5>Burrlap Roll</h5>
+                       <h5 class="mt-2"><a 
+                                    href="{{ url('shop/category/'.$category->id) }}">{{ $category->name }}</a>
+                        {{-- <h5>Burrlap Roll</h5> --}}
+                        </h5> 
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3">
+            @endforeach
+            @endif
+            {{-- <div class="col-lg-3">
                 <div class="product_category_image">
                     <img class="img-fluid" src="{{asset('images/golden-jute/category_image/category_img2.jpg')}}">
                     <div class="category_image_title">
@@ -301,7 +311,7 @@
                         <h5>jute Rope</h5>
                     </div>
                 </div>
-            </div>
+            </div> --}}
           </div>
         </div>
     </div>

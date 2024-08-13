@@ -1,6 +1,7 @@
-@extends('client.layouts.main')
-
-@section('content')
+{{-- @extends('client.layouts.main') --}}
+{{-- @section('content') --}}
+@include('client.layouts.header')
+@include('client.layouts.secondary')
     
     <div class="container">
             <!--contact area start-->
@@ -53,4 +54,5 @@
             </div>
             <!--contact area end-->
     </div>
-@endsection
+@include('client.layouts.footer')
+{{-- @endsection --}}

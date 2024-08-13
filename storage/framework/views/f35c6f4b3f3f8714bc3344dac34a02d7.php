@@ -24,6 +24,19 @@
                             <li class="menu-item-has-children">
                                 <a href="<?php echo e(route('client.home')); ?>">Home</a>
                             </li>
+                             <li class="menu-item-has-children">
+                                <a href="<?php echo e(route('categorypage')); ?>">All Category</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="<?php echo e(route('about_us')); ?>">About</a>
+                            </li>
+                            
+                            <li class="menu-item-has-children">
+                                <a href="<?php echo e(route('gallery')); ?>">Gallery</a>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="<?php echo e(route('client.contact')); ?>">Contact</a>
+                            </li>
                             <li class="menu-item-has-children">
                                 <a href="<?php echo e(url('shop')); ?>">Shop</a>
                             </li>
@@ -76,8 +89,8 @@
                                 <ul>
                                     
                                     <li>Hotline: <a href="tel:<?php echo e($company->phone); ?>"><?php echo e($company->phone); ?> </a></li>
-                                    <li><a href="#">GOLDEN JUTE</a></li>
-                                    <li>Email:info@goldenjutebd.com</li>
+                                    <li><a href="#"><?php echo e($company->name); ?></a></li>
+                                    <li><?php echo e($company->email); ?></li>
                                 </ul>
                             </div>
                         </div>
@@ -90,7 +103,7 @@
                     <div class="row align-items-center">
                         <div class="column1 col-lg-3 col-md-3 col-4">
                             <div class="logo">
-                            <a href="<?php echo e(route('client.home')); ?>"><img src="<?php echo e(asset('images/golden-jute/logo/logo.jpg')); ?>"alt="logo"></a>
+                            <a href="<?php echo e(route('client.home')); ?>"><img src="<?php echo e(asset('images/company/'.$company->logo)); ?>"alt="logo"></a>
                             </div>
                         </div>
                         <div class="column2 col-lg-6 col-md-12">
@@ -136,7 +149,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-2 col-md-6">
                         <div class="logo">
-                        <a href="<?php echo e(route('client.home')); ?>"><img src="<?php echo e(asset('images/golden-jute/logo/logo.jpg')); ?>"alt="logo"></a>
+                        <a href="<?php echo e(route('client.home')); ?>"><img src="<?php echo e(asset('images/company/'.$company->logo)); ?>"alt="logo"></a>
                         </div>
                         </div>
                         <div class="col-lg-7 col-md-12">
@@ -152,12 +165,7 @@
                             <li class="menu-item-has-children">
                                 <a href="<?php echo e(route('about_us')); ?>">About</a>
                             </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Sister Concern</a>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Clients</a>
-                            </li>
+                            
                             <li class="menu-item-has-children">
                                 <a href="<?php echo e(route('gallery')); ?>">Gallery</a>
                             </li>
@@ -226,17 +234,12 @@
                                 <a href="<?php echo e(route('client.home')); ?>">Home</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="#">All Category</a>
+                                <a href="<?php echo e(route('categorypage')); ?>">All Category</a>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="<?php echo e(route('about_us')); ?>">About</a>
                             </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Sister Concern</a>
-                            </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Clients</a>
-                            </li>
+                            
                             <li class="menu-item-has-children">
                                 <a href="<?php echo e(route('gallery')); ?>">Gallery</a>
                             </li>

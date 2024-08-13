@@ -34,33 +34,7 @@
 <!--slider area end-->
 
 <!-- sister consern start -->
-<section class="sister_concern">
-    <div class="container">
-        <div class="sister_concern_title">
-            <h2>Sister Concern</h2>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="sister_concern_image">
-                    <img src="<?php echo e(asset('images/golden-jute/sister_concern/Golden Beverage.jpg')); ?>">
-                    <a href="#"><p>GOLDEN BEVERAGE</p></a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="sister_concern_image">
-                    <img src="<?php echo e(asset('images/golden-jute/sister_concern/golden_jute_product.jpg')); ?>">
-                    <a href="#"><p>GOLDEN JUTE Poduct</p></a>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="sister_concern_image">
-                    <img src="<?php echo e(asset('images/golden-jute/sister_concern/global_golden_craft.jpg')); ?>">
-                    <a href="#"><p>GLOBAL GOLDEN JUTE & CRAFTS LTD.</p></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 <!-- sister consern end -->
 
 <!-- about_section start -->
@@ -222,39 +196,7 @@
     <!-- Documentary end -->
 
     <!-- jute Rope descriptions start -->
-     <section class="jute_rope_descriptions">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="jute_rope_specification">
-                        <p>3 Standard jute rope</p>
-                        <ul>
-                            <li><p><strong>Qulity:</strong>Sacking,Hessain, and CB</p></li>
-                            <li><p><strong>Diameter:</strong>3mm to 5mm</p></li>
-                            <li><p><strong>Length:</strong>30m, 50m, 100m, 200m as per buyer demand</p></li>
-                            <li><p><strong>Weight:</strong>2.00kg coil/spool, 3 kg coil/spool, 10kg coil, 25kg coil or above.</p></li>
-                            <li><p><strong>Packing: </strong>Poly Shrink film and truss or as per buyer demand</p></li>
-                        </ul>
-                    </div>
-                    <div class="jute_rope_pera">
-                        <p>Jute rope is an organic fibre known for its strength and resilience. The fibres of the plant extend into thick threads, which can be purchased or created on spindles. It's very thin, so for long journeys, it's excellent. The rope Jute is also heat resistant and the impact of sunlight.</p>
-                    </div>
-                    <div class="jute_rope_pera">
-                        <p>Golden Jute Products Corporation has progressed in marketing goods made of jute and supply the best jute items in your budget. Through innovation and creativity, we have also provided contemporary consumers with innovative products.</p>
-                    </div>
-                    <div class="jute_rope_pera">
-                        <p>Jute grows during the ranges of Bangladesh. Jute is a broad, shining plant fibre, which may also be challenging and robust filets. As long as the plant can, the fibres are between 3 and 13 feet long.</p>
-                    </div>
-                    <div class="jute_rope_pera">
-                        <p>Jute ropes are white to light brown. The natural jute rope has replaced synthetic material in many of these applications; some services have the environmentally friendly jute style that would not be appropriate to use synthetics. We choose jute rope for specific applications, such as for home decorating, artisan products, etc. The following are the applications of jute ropes</p>
-                    </div>
-                    <div class="jute_rope_pera">
-                        <p>Jute is durable and elegant. Therefore, it cannot be surprising that any of these materials, from lampshades to elegant vases, are used for weaving. Since they are widespread, coloured jute rope has an incredibly dense and delicate contact. They can withstand heavy traffic and are appropriate for families with children and puppies who are substantial.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-     </section>
+     
 
      <!-- jute Rope descriptions end -->
 
@@ -395,32 +337,7 @@
 <!--our certificate area end-->
 
 
-<!--our certificate  area start-->
-<div class="our_certificate">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="our_partners_Title">
-                            <h2>Short Documentary</h2>
-                        </div>
-                        <?php if(!empty($urls)): ?>    
-                            <div class="blog_container blog_column4 owl-carousel">
-                                <?php $__currentLoopData = $urls; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>    
-                                    <article class="single_blog">
-                                        <figure>
-                                            <div class="youtube_frame">
-                                            <iframe class="youtube_video" src="<?php echo e($item->url); ?>"></iframe>
-                                            </div>
-                                        </figure>
-                                    </article> 
-                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-                            </div>
-                        <?php endif; ?>
-                    </div>
-                </div>
-            </div>
-</div>
-<!--our certificate area end-->
+
 
 <!--product area end-->
 
@@ -562,6 +479,32 @@
 
 </div>
 <!--home section bg area end-->
+<!--our certificate  area start-->
+<div class="our_certificate">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="our_partners_Title">
+                            <h2>Short Documentary</h2>
+                        </div>
+                        <?php if(!empty($urls)): ?>    
+                            <div class="blog_container blog_column4 owl-carousel">
+                                <?php $__currentLoopData = $urls; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>    
+                                    <article class="single_blog">
+                                        <figure>
+                                            <div class="youtube_frame">
+                                            <iframe class="youtube_video" src="<?php echo e($item->url); ?>"></iframe>
+                                            </div>
+                                        </figure>
+                                    </article> 
+                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </div>
+</div>
+<!--our certificate area end-->
 <?php $__env->stopSection(); ?>
 <?php $__env->startPush('scripts'); ?>
 <Script>

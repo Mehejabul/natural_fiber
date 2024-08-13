@@ -233,7 +233,7 @@
                                             </div>
                                         </fieldset>
                                         <fieldset class="mt-2">
-                                            <h5>Product Type <span class="text-danger">*</span></h5>
+                                            {{-- <h5>Product Type <span class="text-danger">*</span></h5> --}}
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text" id="basic-Createon1"><i class="bx bx-purchase-tag-alt"></i></span>
