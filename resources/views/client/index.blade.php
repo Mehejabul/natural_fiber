@@ -51,7 +51,7 @@
 <!--slider area end-->
 
 <!-- sister consern start -->
-<section class="sister_concern">
+{{-- <section class="sister_concern">
     <div class="container">
         <div class="sister_concern_title">
             <h2>Sister Concern</h2>
@@ -77,7 +77,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- sister consern end -->
 
 <!-- about_section start -->
@@ -242,7 +242,7 @@
     <!-- Documentary end -->
 
     <!-- jute Rope descriptions start -->
-     <section class="jute_rope_descriptions">
+     {{-- <section class="jute_rope_descriptions">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -274,7 +274,7 @@
                 </div>
             </div>
         </div>
-     </section>
+     </section> --}}
 
      <!-- jute Rope descriptions end -->
 
@@ -418,32 +418,7 @@
 <!--our certificate area end-->
 
 
-<!--our certificate  area start-->
-<div class="our_certificate">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="our_partners_Title">
-                            <h2>Short Documentary</h2>
-                        </div>
-                        @if (!empty($urls))    
-                            <div class="blog_container blog_column4 owl-carousel">
-                                @foreach ($urls as $item)    
-                                    <article class="single_blog">
-                                        <figure>
-                                            <div class="youtube_frame">
-                                            <iframe class="youtube_video" src="{{$item->url}}"></iframe>
-                                            </div>
-                                        </figure>
-                                    </article> 
-                                @endforeach
-                            </div>
-                        @endif
-                    </div>
-                </div>
-            </div>
-</div>
-<!--our certificate area end-->
+
 
 <!--product area end-->
 
@@ -1112,6 +1087,32 @@ class="img-fluid"></a></div>
 
 </div>
 <!--home section bg area end-->
+<!--our certificate  area start-->
+<div class="our_certificate">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="our_partners_Title">
+                            <h2>Short Documentary</h2>
+                        </div>
+                        @if (!empty($urls))    
+                            <div class="blog_container blog_column4 owl-carousel">
+                                @foreach ($urls as $item)    
+                                    <article class="single_blog">
+                                        <figure>
+                                            <div class="youtube_frame">
+                                            <iframe class="youtube_video" src="{{$item->url}}"></iframe>
+                                            </div>
+                                        </figure>
+                                    </article> 
+                                @endforeach
+                            </div>
+                        @endif
+                    </div>
+                </div>
+            </div>
+</div>
+<!--our certificate area end-->
 @endsection
 @push('scripts')
 <Script>

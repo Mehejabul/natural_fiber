@@ -1,6 +1,7 @@
 
 
-<?php $__env->startSection('content'); ?>
+<?php echo $__env->make('client.layouts.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->make('client.layouts.secondary', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
     
     <div class="container">
             <!--contact area start-->
@@ -53,5 +54,5 @@
             </div>
             <!--contact area end-->
     </div>
-<?php $__env->stopSection(); ?>
-<?php echo $__env->make('client.layouts.main', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH G:\natural_fiber\resources\views/client/contact.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('client.layouts.footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH G:\natural_fiber\resources\views/client/contact.blade.php ENDPATH**/ ?>

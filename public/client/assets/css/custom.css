@@ -773,7 +773,7 @@ border: none;
 .header_middle_style4 {
     border-bottom: 1px solid #ffffff;
     border-top: 1px solid #ffffff;
-    padding: 20px 0px !important;
+    /* padding: 20px 0px !important; */
 }
 
 .categories_four .categories_title {
@@ -781,7 +781,8 @@ border: none;
 }
 
 .header_middle.sticky_header_four.sticky-header.sticky {
-   background: #f48222;
+   /* background: #f48222; */
+   background: #57b74d;
 }
 
 .header_wishlist {

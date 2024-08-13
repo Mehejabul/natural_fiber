@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
-    <title> <?php echo e($title); ?> - Dashboard </title>
+    <title> Natural Fiber </title>
     
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo e(asset('images/company/'.$company->favicon)); ?>">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600%7CIBM+Plex+Sans:300,400,500,600,700" rel="stylesheet">

@@ -76,7 +76,7 @@
                                         <?php endif; ?>
                                     <?php endif; ?>
                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
-
+                                <li><a class="facebook" href="#" target="_new"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
