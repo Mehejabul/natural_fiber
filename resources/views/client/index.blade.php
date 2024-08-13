@@ -224,13 +224,17 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="tvWrap">
-                        <div class="tv_shape">
-                            <div class="youtube_video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    {{-- @dd($documentory); --}}
+                    @if (!empty($documentory))
+                       <div class="tvWrap">
+                            <div class="tv_shape">
+                                <div class="youtube_video">
+                                <iframe width="560" height="315" src="{{$documentory->company_documentory}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        {{-- https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS --}}
+                    </div> 
+                    @endif
                 </div>
             </div>
         </div>
@@ -422,36 +426,19 @@
                         <div class="our_partners_Title">
                             <h2>Short Documentary</h2>
                         </div>
-                        <div class="blog_container blog_column4 owl-carousel">
-                        <article class="single_blog">
-                                <figure>
-                                    <div class="youtube_frame">
-                                       <iframe class="youtube_video" src="https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS"></iframe>
-                                    </div>
-                                </figure>
-                            </article> 
-                            <article class="single_blog">
-                                <figure>
-                                    <div class="youtube_frame">
-                                       <iframe class="youtube_video" src="https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS"></iframe>
-                                    </div>
-                                </figure>
-                            </article> 
-                            <article class="single_blog">
-                                <figure>
-                                    <div class="youtube_frame">
-                                       <iframe class="youtube_video" src="https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS"></iframe>
-                                    </div>
-                                </figure>
-                            </article> 
-                            <article class="single_blog">
-                                <figure>
-                                    <div class="youtube_frame">
-                                       <iframe class="youtube_video" src="https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS"></iframe>
-                                    </div>
-                                </figure>
-                            </article> 
-                        </div>
+                        @if (!empty($urls))    
+                            <div class="blog_container blog_column4 owl-carousel">
+                                @foreach ($urls as $item)    
+                                    <article class="single_blog">
+                                        <figure>
+                                            <div class="youtube_frame">
+                                            <iframe class="youtube_video" src="{{$item->url}}"></iframe>
+                                            </div>
+                                        </figure>
+                                    </article> 
+                                @endforeach
+                            </div>
+                        @endif
                     </div>
                 </div>
             </div>

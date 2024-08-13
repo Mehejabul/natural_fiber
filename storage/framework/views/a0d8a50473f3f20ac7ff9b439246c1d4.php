@@ -86,8 +86,7 @@
                             <p><?php echo $about -> short_description; ?></p>
                             
                         </div>
-                        
-                        
+                      
                     </div>
                     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                 </div>
@@ -205,13 +204,17 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="tvWrap">
-                        <div class="tv_shape">
-                            <div class="youtube_video">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/PIfai6VYcJI?si=ERxsq7NDssTHWxcS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    
+                    <?php if(!empty($documentory)): ?>
+                       <div class="tvWrap">
+                            <div class="tv_shape">
+                                <div class="youtube_video">
+                                <iframe width="560" height="315" src="<?php echo e($documentory->company_documentory); ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        
+                    </div> 
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -287,7 +290,7 @@
 
 </div>
 
-     <!--blog area start-->
+<!--blog area start-->
        <div class="our_partners">
             <div class="container">
                 <div class="row">
@@ -337,7 +340,87 @@
                 </div>
             </div>
         </div>
-        <!--blog area end-->
+<!--blog area end-->
+
+<!--our certificate  area start-->
+<div class="our_certificate">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="our_partners_Title">
+                            <h2>Our Crtification</h2>
+                        </div>
+                        <div class="blog_container blog_column4 owl-carousel">
+                        <article class="single_blog">
+                                <figure>
+                                    <div class="client_image">
+                                        <a href="#">
+                                            <img src="<?php echo e(asset('images/golden-jute/certificate/certificate1.jpg')); ?>" alt="client_one.png">
+                                        </a>
+                                    </div>
+                                </figure>
+                            </article> 
+                            <article class="single_blog">
+                                <figure>
+                                    <div class="client_image">
+                                        <a href="#">
+                                            <img src="<?php echo e(asset('images/golden-jute/certificate/certificate 2.jpg')); ?>" alt="clients_two.png">
+                                        </a>
+                                    </div>
+                                </figure>
+                            </article> 
+                            <article class="single_blog">
+                                <figure>
+                                    <div class="client_image">
+                                        <a href="#">
+                                            <img src="<?php echo e(asset('images/golden-jute/certificate/certificate3.jpg')); ?>" alt="client_three.png">
+                                        </a>
+                                    </div>
+                                </figure>
+                            </article>
+                            <article class="single_blog">
+                                <figure>
+                                    <div class="client_image">
+                                        <a href="#">
+                                            <img src="<?php echo e(asset('images/golden-jute/certificate/certificate4.jpg')); ?>" alt="client_one.png">
+                                        </a>
+                                    </div>
+                                </figure>
+                            </article> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+<!--our certificate area end-->
+
+
+<!--our certificate  area start-->
+<div class="our_certificate">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="our_partners_Title">
+                            <h2>Short Documentary</h2>
+                        </div>
+                        <?php if(!empty($urls)): ?>    
+                            <div class="blog_container blog_column4 owl-carousel">
+                                <?php $__currentLoopData = $urls; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>    
+                                    <article class="single_blog">
+                                        <figure>
+                                            <div class="youtube_frame">
+                                            <iframe class="youtube_video" src="<?php echo e($item->url); ?>"></iframe>
+                                            </div>
+                                        </figure>
+                                    </article> 
+                                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                            </div>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </div>
+</div>
+<!--our certificate area end-->
 
 <!--product area end-->
 

@@ -102,9 +102,7 @@ app('router')->setCompiledRoutes(
         array (
           0 => 
           array (
-            '_route' => 'generated::LV5Lb3WO1XcJQIeV',
-            '_route' => 'generated::9kp687awccaIl1E4',
-            '_route' => 'generated::bhX7kZc8fKdLIFAl',
+            '_route' => 'generated::bFxauVKoT8zYdD1p',
           ),
           1 => NULL,
           2 => 
@@ -1842,10 +1840,66 @@ app('router')->setCompiledRoutes(
           6 => NULL,
         ),
       ),
+      '/documentory' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'documentory.index',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'documentory.store',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'POST' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      '/documentory/create' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'documentory.create',
+          ),
+          1 => NULL,
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
     ),
     2 => 
     array (
-      0 => '{^(?|/s(?|hop(?:/([^/]++)(?:/([^/]++))?)?(*:43)|tock(?|/([^/]++)(?|(*:69)|/edit(*:81)|(*:88))|\\-variant(?|/([^/]++)(*:117)|\\-update/([^/]++)(*:142))))|/product(?|\\-(?|details(?:/([^/]++))?(*:190)|variation/([^/]++)(?|(*:219)|/edit(*:232)|(*:240))|type/([^/]++)(?|(*:265)|/edit(*:278)|(*:286)))|/([^/]++)(?|(*:308)|/edit(*:321)|(*:329)))|/c(?|at(?|egory/([^/]++)(?|(*:366)|/edit(*:379)|(*:387))|alogue/([^/]++)(?|(*:414)|/edit(*:427)|(*:435)))|ustomer/([^/]++)(?|(*:464)|/edit(*:477)|(*:485))|ompany\\-details/([^/]++)(?|(*:521)|/edit(*:534)|(*:542)))|/multiimage\\-delete/([^/]++)(*:580)|/order\\-(?|list(?:/([^/]++))?(*:617)|i(?|temlist/([^/]++)(*:645)|nvoice/([^/]++)(*:668))|status\\-(?|edit/([^/]++)(*:701)|update/([^/]++)(*:724)))|/banner/([^/]++)(?|(*:753)|/edit(*:766)|(*:774))|/view\\-section/([^/]++)(?|(*:809)|/edit(*:822)|(*:830))|/a(?|d/([^/]++)(?|(*:857)|/edit(*:870)|(*:878))|bouts/([^/]++)(?|(*:904)|/edit(*:917)|(*:925)))|/gallery/([^/]++)(?|(*:955)|/edit(*:968)|(*:976)))/?$}sDu',
+      0 => '{^(?|/s(?|hop(?:/([^/]++)(?:/([^/]++))?)?(*:43)|tock(?|/([^/]++)(?|(*:69)|/edit(*:81)|(*:88))|\\-variant(?|/([^/]++)(*:117)|\\-update/([^/]++)(*:142))))|/product(?|\\-(?|details(?:/([^/]++))?(*:190)|variation/([^/]++)(?|(*:219)|/edit(*:232)|(*:240))|type/([^/]++)(?|(*:265)|/edit(*:278)|(*:286)))|/([^/]++)(?|(*:308)|/edit(*:321)|(*:329)))|/c(?|at(?|egory/([^/]++)(?|(*:366)|/edit(*:379)|(*:387))|alogue/([^/]++)(?|(*:414)|/edit(*:427)|(*:435)))|ustomer/([^/]++)(?|(*:464)|/edit(*:477)|(*:485))|ompany\\-details/([^/]++)(?|(*:521)|/edit(*:534)|(*:542)))|/multiimage\\-delete/([^/]++)(*:580)|/order\\-(?|list(?:/([^/]++))?(*:617)|i(?|temlist/([^/]++)(*:645)|nvoice/([^/]++)(*:668))|status\\-(?|edit/([^/]++)(*:701)|update/([^/]++)(*:724)))|/banner/([^/]++)(?|(*:753)|/edit(*:766)|(*:774))|/view\\-section/([^/]++)(?|(*:809)|/edit(*:822)|(*:830))|/a(?|d/([^/]++)(?|(*:857)|/edit(*:870)|(*:878))|bouts/([^/]++)(?|(*:904)|/edit(*:917)|(*:925)))|/gallery/([^/]++)(?|(*:955)|/edit(*:968)|(*:976))|/documentory/([^/]++)(?|(*:1009)|/edit(*:1023)|(*:1032)))/?$}sDu',
     ),
     3 => 
     array (
@@ -3225,6 +3279,94 @@ app('router')->setCompiledRoutes(
           5 => true,
           6 => NULL,
         ),
+      ),
+      1009 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'documentory.show',
+          ),
+          1 => 
+          array (
+            0 => 'documentory',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+      ),
+      1023 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'documentory.edit',
+          ),
+          1 => 
+          array (
+            0 => 'documentory',
+          ),
+          2 => 
+          array (
+            'GET' => 0,
+            'HEAD' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => false,
+          6 => NULL,
+        ),
+      ),
+      1032 => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'documentory.update',
+          ),
+          1 => 
+          array (
+            0 => 'documentory',
+          ),
+          2 => 
+          array (
+            'PUT' => 0,
+            'PATCH' => 1,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            '_route' => 'documentory.destroy',
+          ),
+          1 => 
+          array (
+            0 => 'documentory',
+          ),
+          2 => 
+          array (
+            'DELETE' => 0,
+          ),
+          3 => NULL,
+          4 => false,
+          5 => true,
+          6 => NULL,
+        ),
         2 => 
         array (
           0 => NULL,
@@ -3387,9 +3529,7 @@ app('router')->setCompiledRoutes(
       'waitSeconds' => NULL,
       'withTrashed' => false,
     ),
-    'generated::LV5Lb3WO1XcJQIeV' => 
-    'generated::9kp687awccaIl1E4',
-    'generated::bhX7kZc8fKdLIFAl' =>
+    'generated::bFxauVKoT8zYdD1p' => 
     array (
       'methods' => 
       array (
@@ -3412,9 +3552,7 @@ app('router')->setCompiledRoutes(
         'where' => 
         array (
         ),
-        'as' => 'generated::LV5Lb3WO1XcJQIeV',
-        'as' => 'generated::9kp687awccaIl1E4',
-        'as' => 'generated::bhX7kZc8fKdLIFAl',
+        'as' => 'generated::bFxauVKoT8zYdD1p',
       ),
       'fallback' => false,
       'defaults' => 
@@ -9097,6 +9235,270 @@ app('router')->setCompiledRoutes(
         'as' => 'gallery.destroy',
         'uses' => 'App\\Http\\Controllers\\server\\GalleryController@destroy',
         'controller' => 'App\\Http\\Controllers\\server\\GalleryController@destroy',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'documentory.index' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'documentory',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'documentory.index',
+        'uses' => 'App\\Http\\Controllers\\server\\DocumentoryController@index',
+        'controller' => 'App\\Http\\Controllers\\server\\DocumentoryController@index',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'documentory.create' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'documentory/create',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'documentory.create',
+        'uses' => 'App\\Http\\Controllers\\server\\DocumentoryController@create',
+        'controller' => 'App\\Http\\Controllers\\server\\DocumentoryController@create',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'documentory.store' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'POST',
+      ),
+      'uri' => 'documentory',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'documentory.store',
+        'uses' => 'App\\Http\\Controllers\\server\\DocumentoryController@store',
+        'controller' => 'App\\Http\\Controllers\\server\\DocumentoryController@store',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'documentory.show' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'documentory/{documentory}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'documentory.show',
+        'uses' => 'App\\Http\\Controllers\\server\\DocumentoryController@show',
+        'controller' => 'App\\Http\\Controllers\\server\\DocumentoryController@show',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'documentory.edit' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'GET',
+        1 => 'HEAD',
+      ),
+      'uri' => 'documentory/{documentory}/edit',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'documentory.edit',
+        'uses' => 'App\\Http\\Controllers\\server\\DocumentoryController@edit',
+        'controller' => 'App\\Http\\Controllers\\server\\DocumentoryController@edit',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'documentory.update' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'PUT',
+        1 => 'PATCH',
+      ),
+      'uri' => 'documentory/{documentory}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'documentory.update',
+        'uses' => 'App\\Http\\Controllers\\server\\DocumentoryController@update',
+        'controller' => 'App\\Http\\Controllers\\server\\DocumentoryController@update',
+        'namespace' => NULL,
+        'prefix' => '/',
+        'where' => 
+        array (
+        ),
+      ),
+      'fallback' => false,
+      'defaults' => 
+      array (
+      ),
+      'wheres' => 
+      array (
+      ),
+      'bindingFields' => 
+      array (
+      ),
+      'lockSeconds' => NULL,
+      'waitSeconds' => NULL,
+      'withTrashed' => false,
+    ),
+    'documentory.destroy' => 
+    array (
+      'methods' => 
+      array (
+        0 => 'DELETE',
+      ),
+      'uri' => 'documentory/{documentory}',
+      'action' => 
+      array (
+        'middleware' => 
+        array (
+          0 => 'web',
+          1 => 'user',
+        ),
+        'as' => 'documentory.destroy',
+        'uses' => 'App\\Http\\Controllers\\server\\DocumentoryController@destroy',
+        'controller' => 'App\\Http\\Controllers\\server\\DocumentoryController@destroy',
         'namespace' => NULL,
         'prefix' => '/',
         'where' => 

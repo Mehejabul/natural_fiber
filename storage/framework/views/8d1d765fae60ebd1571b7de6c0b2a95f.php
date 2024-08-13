@@ -150,6 +150,8 @@
                 </li>
                 <li class=" nav-item"><a href="<?php echo e(route('gallery.index')); ?>"><i class="bx bxl-slack"></i><span class="menu-title">Gallery</span></a>
                 </li>
+                <li class=" nav-item"><a href="<?php echo e(route('documentory.index')); ?>"><i class="bx bxl-slack"></i><span class="menu-title">Documentory</span></a>
+                </li>
                 <li class=" nav-item"><a href="<?php echo e(route('ad.index')); ?>"><i class="bx bxl-slack"></i><span class="menu-title">AD Zone</span></a>
                 </li>
                 <li class=" nav-item"><a href="<?php echo e(route('product-type.index')); ?>"><i class="bx bxl-slack"></i><span class="menu-title">Product Type</span></a>
